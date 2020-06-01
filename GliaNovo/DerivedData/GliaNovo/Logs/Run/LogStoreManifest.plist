@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>016EE26F-FBDF-47A7-AC88-4E411B2C182F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>016EE26F-FBDF-47A7-AC88-4E411B2C182F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612739355.12116897</real>
+			<key>timeStoppedRecording</key>
+			<real>612739427.50032198</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>016EE26F-FBDF-47A7-AC88-4E411B2C182F</string>
+		</dict>
+		<key>330FE30B-1E0E-4B50-9F9C-B7B72F170895</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>330FE30B-1E0E-4B50-9F9C-B7B72F170895.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612737952.48930299</real>
+			<key>timeStoppedRecording</key>
+			<real>612737965.35369098</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>330FE30B-1E0E-4B50-9F9C-B7B72F170895</string>
+		</dict>
+		<key>3878DD00-B9C5-4207-9C78-60E7A4D70539</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3878DD00-B9C5-4207-9C78-60E7A4D70539.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612737965.41045499</real>
+			<key>timeStoppedRecording</key>
+			<real>612738000.60088301</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>3878DD00-B9C5-4207-9C78-60E7A4D70539</string>
+		</dict>
+		<key>3C6661AD-13D0-49EE-840E-58C5A1C03CB4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3C6661AD-13D0-49EE-840E-58C5A1C03CB4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612737948.88449502</real>
+			<key>timeStoppedRecording</key>
+			<real>612737952.30246496</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>3C6661AD-13D0-49EE-840E-58C5A1C03CB4</string>
+		</dict>
+		<key>3D9C52B7-1B0F-46FA-98CA-01D0A8644A60</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3D9C52B7-1B0F-46FA-98CA-01D0A8644A60.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612739715.87422001</real>
+			<key>timeStoppedRecording</key>
+			<real>612739769.20861495</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>3D9C52B7-1B0F-46FA-98CA-01D0A8644A60</string>
+		</dict>
+		<key>4864ECE2-4FF5-410B-85D2-AEAC005A4D80</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4864ECE2-4FF5-410B-85D2-AEAC005A4D80.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612739427.98478699</real>
+			<key>timeStoppedRecording</key>
+			<real>612739707.75038803</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>4864ECE2-4FF5-410B-85D2-AEAC005A4D80</string>
+		</dict>
+		<key>58F47B1F-223E-49D5-BD64-069C9FE7413C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>58F47B1F-223E-49D5-BD64-069C9FE7413C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612736685.24536002</real>
+			<key>timeStoppedRecording</key>
+			<real>612737904.09185696</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>58F47B1F-223E-49D5-BD64-069C9FE7413C</string>
+		</dict>
+		<key>62836407-656F-4CCC-A54C-02559A5B2FB0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>62836407-656F-4CCC-A54C-02559A5B2FB0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612738752.25382495</real>
+			<key>timeStoppedRecording</key>
+			<real>612739335.06591105</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>62836407-656F-4CCC-A54C-02559A5B2FB0</string>
+		</dict>
+		<key>6AFA5F96-05A2-4430-8F38-ACBF9D3D6649</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6AFA5F96-05A2-4430-8F38-ACBF9D3D6649.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612739336.12815201</real>
+			<key>timeStoppedRecording</key>
+			<real>612739354.262344</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>6AFA5F96-05A2-4430-8F38-ACBF9D3D6649</string>
+		</dict>
+		<key>B262AF5D-F85C-42CE-84AD-72AC1A9D653C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B262AF5D-F85C-42CE-84AD-72AC1A9D653C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612738000.67297602</real>
+			<key>timeStoppedRecording</key>
+			<real>612738007.12976694</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>B262AF5D-F85C-42CE-84AD-72AC1A9D653C</string>
+		</dict>
+		<key>D42BCCCD-0EDC-4824-8023-7FD6AC6D9790</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D42BCCCD-0EDC-4824-8023-7FD6AC6D9790.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612737949.29368699</real>
+			<key>timeStoppedRecording</key>
+			<real>612737952.30395103</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>D42BCCCD-0EDC-4824-8023-7FD6AC6D9790</string>
+		</dict>
+		<key>EDB59664-0566-4BFA-8F49-9748761A5365</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EDB59664-0566-4BFA-8F49-9748761A5365.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612737910.73184204</real>
+			<key>timeStoppedRecording</key>
+			<real>612737947.94610703</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>EDB59664-0566-4BFA-8F49-9748761A5365</string>
+		</dict>
+		<key>F2944074-CE9F-4DD9-A9BF-9C57A0A5B870</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F2944074-CE9F-4DD9-A9BF-9C57A0A5B870.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>612739769.61725497</real>
+			<key>timeStoppedRecording</key>
+			<real>612739781.87078202</real>
+			<key>title</key>
+			<string>Run GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>F2944074-CE9F-4DD9-A9BF-9C57A0A5B870</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
