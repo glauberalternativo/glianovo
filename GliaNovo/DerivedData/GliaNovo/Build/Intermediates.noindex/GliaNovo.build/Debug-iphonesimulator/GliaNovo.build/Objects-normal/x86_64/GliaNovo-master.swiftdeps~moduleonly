@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "0746a56c87fdaba18a069c562007e79f"
+build_time: [1591047142, 643343000]
+inputs:
+  "/Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/ViewController.swift": [1590614342, 492667504]
+  "/Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/AppDelegate.swift": [1590614342, 490327441]
+  "/Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/SceneDelegate.swift": [1590614342, 492459272]
