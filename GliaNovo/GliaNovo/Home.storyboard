@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ufp-rN-2jN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NIm-yP-akb">
+            <objects>
+                <viewController id="puo-3t-VkF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FGk-eB-Oux">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qME-It-U7d">
+                                <rect key="frame" x="30" y="118" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qME-It-U7d" firstAttribute="top" secondItem="xwg-li-9CJ" secondAttribute="top" constant="30" id="C5p-tI-KPn"/>
+                            <constraint firstItem="xwg-li-9CJ" firstAttribute="trailing" secondItem="qME-It-U7d" secondAttribute="trailing" constant="342" id="J4N-um-vxe"/>
+                            <constraint firstItem="qME-It-U7d" firstAttribute="leading" secondItem="xwg-li-9CJ" secondAttribute="leading" constant="30" id="Mya-Ot-6KQ"/>
+                            <constraint firstItem="xwg-li-9CJ" firstAttribute="bottom" secondItem="qME-It-U7d" secondAttribute="bottom" constant="674" id="xnf-41-ADz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xwg-li-9CJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sOG-Cj-ue4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QzJ-no-BPz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291.304347826087" y="103.79464285714285"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="itg-3q-yfZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ufp-rN-2jN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="2vS-NW-XTL">
+                        <color key="badgeColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="atb-Wt-L9V">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="puo-3t-VkF" kind="relationship" relationship="rootViewController" id="LgQ-N5-9A1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R2u-xB-1CP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620.28985507246387" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+    </resources>
+</document>

@@ -1,53 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NlY-j2-Lli">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Juros-->
+        <scene sceneID="wga-dp-Xbe">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GliaNovo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Glauber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldq-Nl-D6L">
-                                <rect key="frame" x="175" y="366" width="61" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </label>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Julia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXV-Gs-Cg9">
-                                <rect key="frame" x="190" y="438" width="35" height="21"/>
-
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nXV-Gs-Cg9" secondAttribute="trailing" constant="189" id="56N-IJ-3hd"/>
-                            <constraint firstItem="nXV-Gs-Cg9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="OaI-gg-Ebm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nXV-Gs-Cg9" secondAttribute="bottom" constant="403" id="VFj-4H-VI8"/>
-                            <constraint firstItem="nXV-Gs-Cg9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="190" id="bYF-wh-Fom"/>
-                        </constraints>
-
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAe-tp-89Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Juros" id="TZe-Sc-wnc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="doc.on.doc" catalog="system" id="1gm-bn-46K">
+                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewControllerPlaceholder>
             </objects>
-
-            <point key="canvasLocation" x="139" y="70"/>
-
+            <point key="canvasLocation" x="747" y="91"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SIB-0J-rob">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="88U-wi-M2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController id="NlY-j2-Lli" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0A6-50-wQF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QY8-vf-cUK" kind="relationship" relationship="viewControllers" id="GNA-O5-GXa"/>
+                        <segue destination="WQm-GR-41O" kind="relationship" relationship="viewControllers" id="5Ns-8c-94I"/>
+                        <segue destination="TZe-Sc-wnc" kind="relationship" relationship="viewControllers" id="QY8-kj-IYC"/>
+                        <segue destination="WzA-tM-Lrz" kind="relationship" relationship="viewControllers" id="29z-8e-NfJ"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="114" y="59"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="scZ-pB-lft">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwX-Jg-vdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Info" id="WzA-tM-Lrz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="info.circle" catalog="system" id="EFX-4U-Uy7">
+                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewControllerPlaceholder>
+            </objects>
+            <point key="canvasLocation" x="746" y="149"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="uE5-8O-vr2">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4b-na-o8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Home" id="QY8-vf-cUK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="5cg-Dx-X95">
+                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewControllerPlaceholder>
+            </objects>
+            <point key="canvasLocation" x="746" y="-21"/>
+        </scene>
+        <!--Realista-->
+        <scene sceneID="4LO-zH-9xh">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Neu-bc-lGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Realista" id="WQm-GR-41O" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="doc" catalog="system" id="HEz-NX-Og3">
+                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewControllerPlaceholder>
+            </objects>
+            <point key="canvasLocation" x="747" y="31"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="doc.on.doc" catalog="system" width="117" height="128"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+    </resources>
 </document>

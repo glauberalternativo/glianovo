@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="osq-iq-RaF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info-->
+        <scene sceneID="o0u-mk-xYE">
+            <objects>
+                <navigationController id="osq-iq-RaF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Info" selectedImage="info.circle.fill" catalog="system" id="9Np-w7-3vs">
+                        <color key="badgeColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L0W-LG-qOF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZSN-k2-j3Q" kind="relationship" relationship="rootViewController" id="0E1-iZ-Fhr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="988-Y6-qeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="102"/>
+        </scene>
+        <!--Informações-->
+        <scene sceneID="d10-E0-u2m">
+            <objects>
+                <viewController id="ZSN-k2-j3Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rXY-aA-DDC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVH-uw-5PX">
+                                <rect key="frame" x="30" y="118" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RKa-XE-Ohw" firstAttribute="bottom" secondItem="UVH-uw-5PX" secondAttribute="bottom" constant="674" id="8he-nL-JYL"/>
+                            <constraint firstItem="UVH-uw-5PX" firstAttribute="leading" secondItem="RKa-XE-Ohw" secondAttribute="leading" constant="30" id="FcU-oL-9tH"/>
+                            <constraint firstItem="RKa-XE-Ohw" firstAttribute="trailing" secondItem="UVH-uw-5PX" secondAttribute="trailing" constant="342" id="hT9-4H-npL"/>
+                            <constraint firstItem="UVH-uw-5PX" firstAttribute="top" secondItem="RKa-XE-Ohw" secondAttribute="top" constant="30" id="qCM-qt-GHJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RKa-XE-Ohw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Informações" id="2II-kN-LAn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zg5-tt-K60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25" y="102"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
