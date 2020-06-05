@@ -17,6 +17,7 @@
 		FDBE1BA1248583A500B2FEF0 /* Realista.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA0248583A500B2FEF0 /* Realista.storyboard */; };
 		FDBE1BA3248583C200B2FEF0 /* Juros.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA2248583C200B2FEF0 /* Juros.storyboard */; };
 		FDBE1BA5248583EC00B2FEF0 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA4248583EC00B2FEF0 /* Info.storyboard */; };
+		FDDF723C248A11C600B87138 /* Projeção Realista Valores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FDBE1BA0248583A500B2FEF0 /* Realista.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Realista.storyboard; sourceTree = "<group>"; };
 		FDBE1BA2248583C200B2FEF0 /* Juros.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Juros.storyboard; sourceTree = "<group>"; };
 		FDBE1BA4248583EC00B2FEF0 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Projeção Realista Valores.swift"; path = "../Projeção Realista Valores.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		78FFBD3E247F10420090F600 = {
 			isa = PBXGroup;
 			children = (
+				FDDF723D248A11DB00B87138 /* Projeção Realista */,
 				78FFBD49247F10420090F600 /* GliaNovo */,
 				78FFBD48247F10420090F600 /* Products */,
 			);
@@ -74,9 +77,26 @@
 				78FFBD4A247F10420090F600 /* AppDelegate.swift */,
 				78FFBD4C247F10420090F600 /* SceneDelegate.swift */,
 				78FFBD4E247F10420090F600 /* ViewController.swift */,
+				FDDF723A2486E76500B87138 /* New Group */,
 				78FFBD58247F10460090F600 /* Info.plist */,
 			);
 			path = GliaNovo;
+			sourceTree = "<group>";
+		};
+		FDDF723A2486E76500B87138 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		FDDF723D248A11DB00B87138 /* Projeção Realista */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */,
+			);
+			name = "Projeção Realista";
+			path = "Projeção Realista";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +176,7 @@
 			files = (
 				78FFBD4F247F10420090F600 /* ViewController.swift in Sources */,
 				78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */,
+				FDDF723C248A11C600B87138 /* Projeção Realista Valores.swift in Sources */,
 				78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
