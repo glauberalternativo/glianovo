@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GliaNovo.xcodeproj">
+      location = "group:/Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/Realista.storyboard">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
