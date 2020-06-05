@@ -230,7 +230,7 @@ SWIFT_CLASS("_TtC8GliaNovo22RealistaViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Taxa;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Periodo;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Inflacao;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified IR;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified IR1;
 - (void)viewDidLoad;
 - (IBAction)Simular:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

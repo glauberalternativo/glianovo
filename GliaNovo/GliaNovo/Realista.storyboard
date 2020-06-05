@@ -34,89 +34,90 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n9j-I5-r8N">
-                                <rect key="frame" x="20" y="190" width="374" height="34"/>
+                                <rect key="frame" x="20" y="179" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSa-T1-1iQ">
-                                <rect key="frame" x="20" y="254" width="374" height="34"/>
+                                <rect key="frame" x="20" y="233" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa mensal de Rendimentos " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DN7-cQ-WSa">
-                                <rect key="frame" x="20" y="318" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de Rendimentos (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DN7-cQ-WSa">
+                                <rect key="frame" x="20" y="287" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-3m-niQ">
-                                <rect key="frame" x="20" y="382" width="374" height="34"/>
+                                <rect key="frame" x="20" y="341" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-DX-Pe8">
-                                <rect key="frame" x="20" y="446" width="374" height="34"/>
+                                <rect key="frame" x="20" y="395" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndv-JD-3L4">
-                                <rect key="frame" x="20" y="510" width="374" height="34"/>
+                                <rect key="frame" x="20" y="449" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9we-Ah-efw">
-                                <rect key="frame" x="30" y="119" width="42" height="21"/>
+                                <rect key="frame" x="30" y="118" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVL-Lm-mAL">
-                                <rect key="frame" x="168" y="594" width="76" height="30"/>
+                                <rect key="frame" x="168" y="513" width="76" height="30"/>
                                 <state key="normal" title="Simular"/>
                                 <connections>
-                                    <action selector="Simular:" destination="PjS-jJ-laG" eventType="touchUpInside" id="lpy-v5-cmH"/>
+                                    <action selector="Simular:" destination="PjS-jJ-laG" eventType="touchUpInside" id="LTa-y4-zIB"/>
+                                    <action selector="sIMULAR:" destination="PjS-jJ-laG" eventType="touchUpInside" id="dv3-7f-B1Y"/>
                                     <segue destination="uSY-xP-49M" kind="show" id="5Ad-mP-WmK"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="eIG-3m-niQ" firstAttribute="top" secondItem="DN7-cQ-WSa" secondAttribute="bottom" constant="30" id="1cf-K2-ibU"/>
-                            <constraint firstItem="n9j-I5-r8N" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="3T4-yq-eKc"/>
-                            <constraint firstItem="9we-Ah-efw" firstAttribute="top" secondItem="ADq-7a-ygz" secondAttribute="top" constant="31" id="52o-Pz-5WW"/>
-                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="50" id="57l-rh-98b"/>
-                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="168" id="8zc-mk-KGI"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="B7K-ZG-x2s"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="eIG-3m-niQ" secondAttribute="trailing" constant="20" id="E6F-N9-x7A"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="bottom" secondItem="qVL-Lm-mAL" secondAttribute="bottom" constant="189" id="GbZ-Nz-pAg"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="top" secondItem="n9j-I5-r8N" secondAttribute="bottom" constant="30" id="HSP-sF-Xu1"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="ndv-JD-3L4" secondAttribute="trailing" constant="20" id="HfR-Tx-fmb"/>
-                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="K55-ir-eD5"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="qVL-Lm-mAL" secondAttribute="trailing" constant="170" id="MyO-fh-pJO"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="NSa-T1-1iQ" secondAttribute="trailing" constant="20" id="U4x-WV-I2q"/>
-                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="top" secondItem="eIG-3m-niQ" secondAttribute="bottom" constant="30" id="YEt-WL-xFz"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="9we-Ah-efw" secondAttribute="trailing" constant="342" id="ayn-9B-WlM"/>
-                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="cBB-oz-a9h"/>
-                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="top" secondItem="ndv-JD-3L4" secondAttribute="bottom" constant="50" id="eCv-YE-Qty"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="Lcd-DX-Pe8" secondAttribute="trailing" constant="20" id="jvU-LJ-02h"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="n9j-I5-r8N" secondAttribute="trailing" constant="20" id="kae-kj-M13"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="DN7-cQ-WSa" secondAttribute="trailing" constant="20" id="nqc-zp-Pjl"/>
-                            <constraint firstItem="9we-Ah-efw" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="30" id="pxz-Fr-2tg"/>
-                            <constraint firstItem="eIG-3m-niQ" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="smK-g7-MOc"/>
-                            <constraint firstItem="ndv-JD-3L4" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="wF5-6X-hVV"/>
-                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="top" secondItem="NSa-T1-1iQ" secondAttribute="bottom" constant="30" id="zbF-j4-X4u"/>
-                            <constraint firstItem="ndv-JD-3L4" firstAttribute="top" secondItem="Lcd-DX-Pe8" secondAttribute="bottom" constant="30" id="znz-TF-Ygk"/>
+                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="168" id="1V1-3H-f7l"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="40" id="3db-LV-Ktk"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="top" secondItem="n9j-I5-r8N" secondAttribute="bottom" constant="20" id="7JT-52-dR9"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="leading" secondItem="eIG-3m-niQ" secondAttribute="leading" id="AA2-vZ-fSW"/>
+                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="qVL-Lm-mAL" secondAttribute="trailing" constant="170" id="AaM-q1-sL1"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="top" secondItem="NSa-T1-1iQ" secondAttribute="bottom" constant="20" id="Har-mj-6VN"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="40" id="LEH-3p-xwo"/>
+                            <constraint firstItem="9we-Ah-efw" firstAttribute="top" secondItem="ADq-7a-ygz" secondAttribute="top" constant="30" id="NR1-B0-N8Z"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="top" secondItem="DN7-cQ-WSa" secondAttribute="bottom" constant="20" id="NSV-3O-LSE"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="leading" secondItem="ndv-JD-3L4" secondAttribute="leading" id="Q7F-I5-EW1"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="n9j-I5-r8N" secondAttribute="leading" id="SZ9-Vg-vfO"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="DN7-cQ-WSa" secondAttribute="leading" id="T3z-EW-CNl"/>
+                            <constraint firstItem="9we-Ah-efw" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="30" id="YZ3-2b-nwS"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="leading" secondItem="Lcd-DX-Pe8" secondAttribute="leading" id="YaW-5B-EeY"/>
+                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="n9j-I5-r8N" secondAttribute="trailing" constant="20" id="cGs-hw-ab3"/>
+                            <constraint firstItem="ndv-JD-3L4" firstAttribute="top" secondItem="Lcd-DX-Pe8" secondAttribute="bottom" constant="20" id="htv-3w-0Pp"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="trailing" secondItem="Lcd-DX-Pe8" secondAttribute="trailing" id="oOw-cr-DJq"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="trailing" secondItem="eIG-3m-niQ" secondAttribute="trailing" id="p6K-7K-RGa"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="top" secondItem="eIG-3m-niQ" secondAttribute="bottom" constant="20" id="qHD-pP-AHr"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="rEg-y5-HAu"/>
+                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="9we-Ah-efw" secondAttribute="trailing" constant="342" id="sa4-9L-r24"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="trailing" secondItem="n9j-I5-r8N" secondAttribute="trailing" id="scA-9H-YSD"/>
+                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="top" secondItem="ndv-JD-3L4" secondAttribute="bottom" constant="30" id="ske-gT-ff6"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="trailing" secondItem="DN7-cQ-WSa" secondAttribute="trailing" id="waq-PV-oaf"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="trailing" secondItem="ndv-JD-3L4" secondAttribute="trailing" id="yfz-Tu-Z6Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ADq-7a-ygz"/>
                     </view>
                     <navigationItem key="navigationItem" title="Projeção Realista" id="qhq-2e-wrL"/>
                     <connections>
-                        <outlet property="IR" destination="ndv-JD-3L4" id="y9T-6g-PwF"/>
-                        <outlet property="Inflacao" destination="Lcd-DX-Pe8" id="8Tw-95-NVb"/>
-                        <outlet property="Label" destination="9we-Ah-efw" id="Zt7-vq-yL9"/>
-                        <outlet property="Periodo" destination="eIG-3m-niQ" id="J3D-Ab-tPE"/>
-                        <outlet property="Taxa" destination="DN7-cQ-WSa" id="iaG-kY-9fE"/>
-                        <outlet property="ValorInicial" destination="n9j-I5-r8N" id="SYx-gG-MkC"/>
-                        <outlet property="ValorMensal" destination="NSa-T1-1iQ" id="UvN-X5-lEX"/>
+                        <outlet property="IR1" destination="ndv-JD-3L4" id="xrA-Pe-Th4"/>
+                        <outlet property="Inflacao" destination="Lcd-DX-Pe8" id="qA3-oy-Qnc"/>
+                        <outlet property="Label" destination="9we-Ah-efw" id="Q3h-Yx-w5j"/>
+                        <outlet property="Periodo" destination="eIG-3m-niQ" id="j3j-Fh-LsW"/>
+                        <outlet property="Taxa" destination="DN7-cQ-WSa" id="PPc-Kf-le7"/>
+                        <outlet property="ValorInicial" destination="n9j-I5-r8N" id="qxD-up-afn"/>
+                        <outlet property="ValorMensal" destination="NSa-T1-1iQ" id="CTz-oN-Gn2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MaA-gm-8is" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -1,118 +1,393 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "RealistaViewController"
+- "Resultado"
 provides-nominal:
 - "8GliaNovo22RealistaViewControllerC"
 provides-member:
 - ["8GliaNovo22RealistaViewControllerC", ""]
+- ["SS", ""]
+- ["SS", "doubleValue"]
 provides-dynamic-lookup:
+- "DAT"
+- "Dap"
+- "Dat1"
+- "Dat2"
+- "FB"
+- "FL"
 - "IR"
+- "IR1"
 - "Inflacao"
 - "Label"
+- "Luc"
+- "PMT"
+- "PV"
 - "Periodo"
+- "Rend"
+- "Result"
+- "Resultado"
+- "Simular"
 - "Taxa"
+- "Tempo"
 - "ValorInicial"
 - "ValorMensal"
+- "ipca"
+- "print"
 - "viewDidLoad"
 depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "??"
+- "AssignmentPrecedence"
+- "DAT"
+- !private "Dap"
+- !private "Dat1"
+- !private "Dat2"
+- "Double"
+- "FB"
+- "FL"
+- "FloatLiteralType"
+- !private "IR"
+- !private "IR1"
+- !private "Inflacao"
+- !private "IntegerLiteralType"
+- "Luc"
+- !private "NSString"
+- !private "PMT"
+- !private "PV"
+- !private "Periodo"
 - "RealistaViewController"
+- !private "Rend"
+- "Result"
+- "Resultado"
+- "String"
+- !private "Taxa"
+- !private "Tempo"
 - "UILabel"
 - "UITextField"
 - "UIViewController"
+- !private "ValorInicial"
+- !private "ValorMensal"
+- !private "ipca"
+- !private "pow"
 depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "Double"]
+- !private ["SB", "init"]
+- ["s7CVarArgP", "DAT"]
+- !private ["s7CVarArgP", "Double"]
+- ["s7CVarArgP", "FB"]
+- ["s7CVarArgP", "FL"]
+- ["s7CVarArgP", "Luc"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "Double"]
+- !private ["SL", "Double"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "DAT"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "FB"]
+- ["s28CustomDebugStringConvertibleP", "FL"]
+- ["s28CustomDebugStringConvertibleP", "Luc"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DAT"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "FB"]
+- ["s23CustomStringConvertibleP", "FL"]
+- ["s23CustomStringConvertibleP", "Luc"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "Double"]
+- !private ["Se", "init"]
+- !private ["Sd", "init"]
+- !private ["SE", "Double"]
+- !private ["SE", "init"]
+- ["SQ", "DAT"]
+- !private ["SQ", "Double"]
+- ["SQ", "FB"]
+- ["SQ", "FL"]
+- ["SQ", "Luc"]
 - ["SQ", ""]
+- !private ["SQ", "init"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "Double"]
+- !private ["s26ExpressibleByStringLiteralP", "Double"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Double"]
+- !private ["SF", "init"]
+- ["SH", "DAT"]
+- !private ["SH", "Double"]
+- ["SH", "FB"]
+- ["SH", "FL"]
+- ["SH", "Luc"]
 - ["SH", ""]
+- !private ["SH", "init"]
 - !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Double"]
+- ["So8NSCodingP", "DAT"]
+- ["So8NSCodingP", "FB"]
+- ["So8NSCodingP", "FL"]
+- ["So8NSCodingP", "Luc"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "DAT"]
+- ["So26NSExtensionRequestHandlingP", "FB"]
+- ["So26NSExtensionRequestHandlingP", "FL"]
+- ["So26NSExtensionRequestHandlingP", "Luc"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "DAT"]
+- ["So8NSObjectC", "Dap"]
+- ["So8NSObjectC", "Dat1"]
+- ["So8NSObjectC", "Dat2"]
+- ["So8NSObjectC", "FB"]
+- ["So8NSObjectC", "FL"]
 - ["So8NSObjectC", "IR"]
+- ["So8NSObjectC", "IR1"]
 - ["So8NSObjectC", "Inflacao"]
 - ["So8NSObjectC", "Label"]
+- ["So8NSObjectC", "Luc"]
+- ["So8NSObjectC", "PMT"]
+- ["So8NSObjectC", "PV"]
 - ["So8NSObjectC", "Periodo"]
+- ["So8NSObjectC", "Rend"]
+- ["So8NSObjectC", "Result"]
+- ["So8NSObjectC", "Resultado"]
+- ["So8NSObjectC", "Simular"]
 - ["So8NSObjectC", "Taxa"]
+- ["So8NSObjectC", "Tempo"]
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UITextField"]
 - ["So8NSObjectC", "ValorInicial"]
 - ["So8NSObjectC", "ValorMensal"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ipca"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "DAT"]
+- ["So8NSObjectP", "FB"]
+- ["So8NSObjectP", "FL"]
+- ["So8NSObjectP", "Luc"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sj", "init"]
+- !private ["Sm", "Double"]
+- ["8GliaNovo22RealistaViewControllerC", "DAT"]
+- ["8GliaNovo22RealistaViewControllerC", "Dap"]
+- ["8GliaNovo22RealistaViewControllerC", "Dat1"]
+- ["8GliaNovo22RealistaViewControllerC", "Dat2"]
+- ["8GliaNovo22RealistaViewControllerC", "FB"]
+- ["8GliaNovo22RealistaViewControllerC", "FL"]
 - ["8GliaNovo22RealistaViewControllerC", "IR"]
+- ["8GliaNovo22RealistaViewControllerC", "IR1"]
 - ["8GliaNovo22RealistaViewControllerC", "Inflacao"]
 - ["8GliaNovo22RealistaViewControllerC", "Label"]
+- ["8GliaNovo22RealistaViewControllerC", "Luc"]
+- ["8GliaNovo22RealistaViewControllerC", "PMT"]
+- ["8GliaNovo22RealistaViewControllerC", "PV"]
 - ["8GliaNovo22RealistaViewControllerC", "Periodo"]
+- ["8GliaNovo22RealistaViewControllerC", "Rend"]
+- ["8GliaNovo22RealistaViewControllerC", "Result"]
+- ["8GliaNovo22RealistaViewControllerC", "Resultado"]
+- ["8GliaNovo22RealistaViewControllerC", "Simular"]
 - ["8GliaNovo22RealistaViewControllerC", "Taxa"]
+- ["8GliaNovo22RealistaViewControllerC", "Tempo"]
 - ["8GliaNovo22RealistaViewControllerC", "UILabel"]
 - ["8GliaNovo22RealistaViewControllerC", "UITextField"]
 - ["8GliaNovo22RealistaViewControllerC", "ValorInicial"]
 - ["8GliaNovo22RealistaViewControllerC", "ValorMensal"]
 - ["8GliaNovo22RealistaViewControllerC", "deinit"]
 - ["8GliaNovo22RealistaViewControllerC", "init"]
+- ["8GliaNovo22RealistaViewControllerC", "ipca"]
 - ["8GliaNovo22RealistaViewControllerC", "viewDidLoad"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Double"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- ["SS", "Double"]
+- ["SS", "doubleValue"]
+- !private ["Sy", "Double"]
+- !private ["s16TextOutputStreamP", "Double"]
+- !private ["s20TextOutputStreamableP", "Double"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So21UIAppearanceContainerP", "DAT"]
+- ["So21UIAppearanceContainerP", "FB"]
+- ["So21UIAppearanceContainerP", "FL"]
+- ["So21UIAppearanceContainerP", "Luc"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "DAT"]
+- ["So18UIContentContainerP", "FB"]
+- ["So18UIContentContainerP", "FL"]
+- ["So18UIContentContainerP", "Luc"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "DAT"]
+- ["So18UIFocusEnvironmentP", "FB"]
+- ["So18UIFocusEnvironmentP", "FL"]
+- ["So18UIFocusEnvironmentP", "Luc"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "DAT"]
+- ["So30UIPasteConfigurationSupportingP", "FB"]
+- ["So30UIPasteConfigurationSupportingP", "FL"]
+- ["So30UIPasteConfigurationSupportingP", "Luc"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "DAT"]
+- ["So11UIResponderC", "Dap"]
+- ["So11UIResponderC", "Dat1"]
+- ["So11UIResponderC", "Dat2"]
+- ["So11UIResponderC", "FB"]
+- ["So11UIResponderC", "FL"]
 - ["So11UIResponderC", "IR"]
+- ["So11UIResponderC", "IR1"]
 - ["So11UIResponderC", "Inflacao"]
 - ["So11UIResponderC", "Label"]
+- ["So11UIResponderC", "Luc"]
+- ["So11UIResponderC", "PMT"]
+- ["So11UIResponderC", "PV"]
 - ["So11UIResponderC", "Periodo"]
+- ["So11UIResponderC", "Rend"]
+- ["So11UIResponderC", "Result"]
+- ["So11UIResponderC", "Resultado"]
+- ["So11UIResponderC", "Simular"]
 - ["So11UIResponderC", "Taxa"]
+- ["So11UIResponderC", "Tempo"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "UITextField"]
 - ["So11UIResponderC", "ValorInicial"]
 - ["So11UIResponderC", "ValorMensal"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "ipca"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "DAT"]
+- ["So30UIResponderStandardEditActionsP", "FB"]
+- ["So30UIResponderStandardEditActionsP", "FL"]
+- ["So30UIResponderStandardEditActionsP", "Luc"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "DAT"]
+- ["So16UIStateRestoringP", "FB"]
+- ["So16UIStateRestoringP", "FL"]
+- ["So16UIStateRestoringP", "Luc"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "DAT"]
+- ["So18UITraitEnvironmentP", "FB"]
+- ["So18UITraitEnvironmentP", "FL"]
+- ["So18UITraitEnvironmentP", "Luc"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "DAT"]
+- ["So23UIUserActivityRestoringP", "FB"]
+- ["So23UIUserActivityRestoringP", "FL"]
+- ["So23UIUserActivityRestoringP", "Luc"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "DAT"]
+- ["So16UIViewControllerC", "Dap"]
+- ["So16UIViewControllerC", "Dat1"]
+- ["So16UIViewControllerC", "Dat2"]
+- ["So16UIViewControllerC", "FB"]
+- ["So16UIViewControllerC", "FL"]
 - ["So16UIViewControllerC", "IR"]
+- ["So16UIViewControllerC", "IR1"]
 - ["So16UIViewControllerC", "Inflacao"]
 - ["So16UIViewControllerC", "Label"]
+- ["So16UIViewControllerC", "Luc"]
+- ["So16UIViewControllerC", "PMT"]
+- ["So16UIViewControllerC", "PV"]
 - ["So16UIViewControllerC", "Periodo"]
+- ["So16UIViewControllerC", "Rend"]
+- ["So16UIViewControllerC", "Result"]
+- ["So16UIViewControllerC", "Resultado"]
+- ["So16UIViewControllerC", "Simular"]
 - ["So16UIViewControllerC", "Taxa"]
+- ["So16UIViewControllerC", "Tempo"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", "ValorInicial"]
 - ["So16UIViewControllerC", "ValorMensal"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "ipca"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Double"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Double"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Double"]
+- !private ["s19_HasContiguousBytesP", "Double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DAT"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FB"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Luc"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DAT"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FB"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Luc"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
 - "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
 - "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
 - "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sj"
+- !private "Sm"
 - "8GliaNovo22RealistaViewControllerC"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
@@ -123,8 +398,19 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -153,4 +439,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6ad614d87675c0b985f033b332a8312e"
+interface-hash: "dee7bbd33df786ad9d6e0a7d70696a1f"
