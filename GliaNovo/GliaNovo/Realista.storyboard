@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="PCV-dj-Epq" kind="relationship" relationship="rootViewController" id="xJ1-aq-Tif"/>
+                        <segue destination="PjS-jJ-laG" kind="relationship" relationship="rootViewController" id="8hO-r3-u6g"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afn-jP-4dW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -26,113 +26,91 @@
             <point key="canvasLocation" x="-965" y="100"/>
         </scene>
         <!--Projeção Realista-->
-        <scene sceneID="DCA-sL-NUL">
+        <scene sceneID="Zz2-dY-3Il">
             <objects>
-                <viewController id="UhD-xQ-02i" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ibf-OP-tHA">
+                <viewController id="PjS-jJ-laG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iO8-Cs-xOI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Myr-3D-3Lx">
-                                <rect key="frame" x="30" y="145" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n9j-I5-r8N">
+                                <rect key="frame" x="20" y="190" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PgI-Du-yeF">
-                                <rect key="frame" x="30" y="209" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSa-T1-1iQ">
+                                <rect key="frame" x="20" y="254" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa mensal de Rendimentos " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAm-h8-W0T">
-                                <rect key="frame" x="30" y="273" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa mensal de Rendimentos " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DN7-cQ-WSa">
+                                <rect key="frame" x="20" y="318" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAV-ZT-cKY">
-                                <rect key="frame" x="30" y="337" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-3m-niQ">
+                                <rect key="frame" x="20" y="382" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mnu-Yr-iiA">
-                                <rect key="frame" x="30" y="401" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-DX-Pe8">
+                                <rect key="frame" x="20" y="446" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7hN-QG-L86">
-                                <rect key="frame" x="30" y="465" width="354" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndv-JD-3L4">
+                                <rect key="frame" x="20" y="510" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JU0-07-UF6">
-                                <rect key="frame" x="30" y="74" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9we-Ah-efw">
+                                <rect key="frame" x="30" y="119" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-SB-r49">
-                                <rect key="frame" x="169" y="549" width="76" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVL-Lm-mAL">
+                                <rect key="frame" x="168" y="594" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Simular"/>
                                 <connections>
-                                    <segue destination="PCV-dj-Epq" kind="push" id="77Y-Lj-7aP"/>
+                                    <segue destination="uSY-xP-49M" kind="show" id="5Ad-mP-WmK"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="7hN-QG-L86" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="0Bm-ex-1Aa"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="PgI-Du-yeF" secondAttribute="trailing" constant="30" id="0Fx-3W-a8z"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="wAV-ZT-cKY" secondAttribute="trailing" constant="30" id="2lR-Ve-4Zo"/>
-                            <constraint firstItem="Mnu-Yr-iiA" firstAttribute="top" secondItem="wAV-ZT-cKY" secondAttribute="bottom" constant="30" id="5ZB-xV-W9X"/>
-                            <constraint firstItem="VAm-h8-W0T" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="EcF-1f-0Lx"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="bottom" secondItem="L0c-SB-r49" secondAttribute="bottom" constant="283" id="Gzh-Iw-cgS"/>
-                            <constraint firstItem="JU0-07-UF6" firstAttribute="top" secondItem="9JJ-zR-GTS" secondAttribute="top" constant="30" id="HPL-sI-C6W"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="Myr-3D-3Lx" secondAttribute="trailing" constant="30" id="LlA-6D-Y7k"/>
-                            <constraint firstItem="Myr-3D-3Lx" firstAttribute="top" secondItem="JU0-07-UF6" secondAttribute="bottom" constant="50" id="NRV-B8-d3x"/>
-                            <constraint firstItem="7hN-QG-L86" firstAttribute="top" secondItem="Mnu-Yr-iiA" secondAttribute="bottom" constant="30" id="OAs-Xy-QVv"/>
-                            <constraint firstItem="Mnu-Yr-iiA" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="WUT-3i-VlV"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="Mnu-Yr-iiA" secondAttribute="trailing" constant="30" id="aXL-Ly-4IP"/>
-                            <constraint firstItem="L0c-SB-r49" firstAttribute="top" secondItem="7hN-QG-L86" secondAttribute="bottom" constant="50" id="cjG-SP-nnd"/>
-                            <constraint firstItem="L0c-SB-r49" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="169" id="csw-YX-iwC"/>
-                            <constraint firstItem="wAV-ZT-cKY" firstAttribute="top" secondItem="VAm-h8-W0T" secondAttribute="bottom" constant="30" id="hDp-RI-G2J"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="VAm-h8-W0T" secondAttribute="trailing" constant="30" id="hi5-4A-Tkn"/>
-                            <constraint firstItem="JU0-07-UF6" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="i4Y-xu-Fnv"/>
-                            <constraint firstItem="VAm-h8-W0T" firstAttribute="top" secondItem="PgI-Du-yeF" secondAttribute="bottom" constant="30" id="iaR-hP-CiV"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="7hN-QG-L86" secondAttribute="trailing" constant="30" id="jX7-5i-zM3"/>
-                            <constraint firstItem="PgI-Du-yeF" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="kMZ-qM-ABJ"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="L0c-SB-r49" secondAttribute="trailing" constant="169" id="nHG-IQ-1SR"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="JU0-07-UF6" secondAttribute="trailing" constant="342" id="qv8-Oy-5UG"/>
-                            <constraint firstItem="wAV-ZT-cKY" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="szH-12-sb2"/>
-                            <constraint firstItem="PgI-Du-yeF" firstAttribute="top" secondItem="Myr-3D-3Lx" secondAttribute="bottom" constant="30" id="xAF-ia-JDI"/>
-                            <constraint firstItem="Myr-3D-3Lx" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="zgY-Ff-5q6"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="9JJ-zR-GTS"/>
+                        <viewLayoutGuide key="safeArea" id="ADq-7a-ygz"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Projeção Realista" id="3U4-q3-zct"/>
+                    <navigationItem key="navigationItem" title="Projeção Realista" id="qhq-2e-wrL"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uum-1Y-jSf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MaA-gm-8is" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-236.23188405797103" y="99.776785714285708"/>
+            <point key="canvasLocation" x="-139.13043478260872" y="99.776785714285708"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Qut-zB-gmT">
+        <!--Resultado-->
+        <scene sceneID="t3G-X8-c8J">
             <objects>
-                <viewController id="PCV-dj-Epq" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QUE-bV-Oqw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <viewController id="uSY-xP-49M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oKf-eQ-OBX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="bgW-Au-itm"/>
+                        <viewLayoutGuide key="safeArea" id="Oj3-vt-Ujc"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MJ8-Fs-gWw"/>
+                    <navigationItem key="navigationItem" title="Resultado" id="c3Q-nU-Olr"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zJX-Gw-dle" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eV-JT-Kol" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="493" y="100"/>
+            <point key="canvasLocation" x="662" y="100"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="77Y-Lj-7aP"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="doc.fill" catalog="system" width="115" height="128"/>
     </resources>
