@@ -14,9 +14,10 @@
 		78FFBD54247F10460090F600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FFBD53247F10460090F600 /* Assets.xcassets */; };
 		78FFBD57247F10460090F600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FFBD55247F10460090F600 /* LaunchScreen.storyboard */; };
 		FDBE1B9F2485838100B2FEF0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1B9E2485838100B2FEF0 /* Home.storyboard */; };
-		FDBE1BA1248583A500B2FEF0 /* Projeção Realista Valores.swift in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA0248583A500B2FEF0 /* Projeção Realista Valores.swift */; };
+		FDBE1BA1248583A500B2FEF0 /* Realista.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA0248583A500B2FEF0 /* Realista.storyboard */; };
 		FDBE1BA3248583C200B2FEF0 /* Juros.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA2248583C200B2FEF0 /* Juros.storyboard */; };
 		FDBE1BA5248583EC00B2FEF0 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBE1BA4248583EC00B2FEF0 /* Info.storyboard */; };
+		FDDF723C248A11C600B87138 /* Projeção Realista Valores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +30,10 @@
 		78FFBD56247F10460090F600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78FFBD58247F10460090F600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBE1B9E2485838100B2FEF0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		FDBE1BA0248583A500B2FEF0 /* Projeção Realista Valores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Projeção Realista Valores.swift"; sourceTree = SOURCE_ROOT; };
+		FDBE1BA0248583A500B2FEF0 /* Realista.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Realista.storyboard; sourceTree = "<group>"; };
 		FDBE1BA2248583C200B2FEF0 /* Juros.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Juros.storyboard; sourceTree = "<group>"; };
 		FDBE1BA4248583EC00B2FEF0 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
-		FDDF7243248AC2B600B87138 /* Realista.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Realista.storyboard; path = /Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/Realista.storyboard; sourceTree = "<absolute>"; };
+		FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Projeção Realista Valores.swift"; path = "../Projeção Realista Valores.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +67,10 @@
 		78FFBD49247F10420090F600 /* GliaNovo */ = {
 			isa = PBXGroup;
 			children = (
-				FDDF7243248AC2B600B87138 /* Realista.storyboard */,
 				78FFBD55247F10460090F600 /* LaunchScreen.storyboard */,
 				78FFBD50247F10420090F600 /* Main.storyboard */,
 				FDBE1B9E2485838100B2FEF0 /* Home.storyboard */,
+				FDBE1BA0248583A500B2FEF0 /* Realista.storyboard */,
 				FDBE1BA2248583C200B2FEF0 /* Juros.storyboard */,
 				FDBE1BA4248583EC00B2FEF0 /* Info.storyboard */,
 				78FFBD53247F10460090F600 /* Assets.xcassets */,
@@ -92,7 +93,7 @@
 		FDDF723D248A11DB00B87138 /* Projeção Realista */ = {
 			isa = PBXGroup;
 			children = (
-				FDBE1BA0248583A500B2FEF0 /* Projeção Realista Valores.swift */,
+				FDDF723B248A11C600B87138 /* Projeção Realista Valores.swift */,
 			);
 			name = "Projeção Realista";
 			path = "Projeção Realista";
@@ -159,7 +160,7 @@
 				78FFBD57247F10460090F600 /* LaunchScreen.storyboard in Resources */,
 				78FFBD54247F10460090F600 /* Assets.xcassets in Resources */,
 				78FFBD52247F10420090F600 /* Main.storyboard in Resources */,
-				FDBE1BA1248583A500B2FEF0 /* Projeção Realista Valores.swift in Resources */,
+				FDBE1BA1248583A500B2FEF0 /* Realista.storyboard in Resources */,
 				FDBE1BA5248583EC00B2FEF0 /* Info.storyboard in Resources */,
 				FDBE1BA3248583C200B2FEF0 /* Juros.storyboard in Resources */,
 				FDBE1B9F2485838100B2FEF0 /* Home.storyboard in Resources */,
@@ -175,6 +176,7 @@
 			files = (
 				78FFBD4F247F10420090F600 /* ViewController.swift in Sources */,
 				78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */,
+				FDDF723C248A11C600B87138 /* Projeção Realista Valores.swift in Sources */,
 				78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
