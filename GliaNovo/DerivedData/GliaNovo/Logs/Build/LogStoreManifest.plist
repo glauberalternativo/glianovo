@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6C899D92-2B14-4279-BCBF-99EC43180874</key>
+		<key>4A970B45-10EA-4019-9C91-AA2EFF84E7D8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6C899D92-2B14-4279-BCBF-99EC43180874.xcactivitylog</string>
+			<string>4A970B45-10EA-4019-9C91-AA2EFF84E7D8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>GliaNovo project</string>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Build GliaNovo</string>
 			<key>timeStartedRecording</key>
-			<real>612819598.74755394</real>
+			<real>613073693.56668496</real>
 			<key>timeStoppedRecording</key>
-			<real>612819611.77539301</real>
+			<real>613073697.80671096</real>
 			<key>title</key>
 			<string>Build GliaNovo</string>
 			<key>uniqueIdentifier</key>
-			<string>6C899D92-2B14-4279-BCBF-99EC43180874</string>
+			<string>4A970B45-10EA-4019-9C91-AA2EFF84E7D8</string>
+		</dict>
+		<key>E5EDAD4B-B413-42B4-9887-291E06BBD3F6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E5EDAD4B-B413-42B4-9887-291E06BBD3F6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GliaNovo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GliaNovo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GliaNovo</string>
+			<key>timeStartedRecording</key>
+			<real>613069876.21629298</real>
+			<key>timeStoppedRecording</key>
+			<real>613069877.09220803</real>
+			<key>title</key>
+			<string>Build GliaNovo</string>
+			<key>uniqueIdentifier</key>
+			<string>E5EDAD4B-B413-42B4-9887-291E06BBD3F6</string>
 		</dict>
 	</dict>
 </dict>

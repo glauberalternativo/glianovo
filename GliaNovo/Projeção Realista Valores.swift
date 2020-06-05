@@ -6,5 +6,14 @@
 //  Copyright © 2020 Glauber Moreira. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
+class ViewCintroller: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
+    
+}

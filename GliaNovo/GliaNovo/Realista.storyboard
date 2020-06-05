@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afn-jP-4dW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-965" y="100"/>
+            <point key="canvasLocation" x="-1013" y="100"/>
         </scene>
         <!--Projeção Realista-->
         <scene sceneID="DCA-sL-NUL">
@@ -36,32 +36,32 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Myr-3D-3Lx">
                                 <rect key="frame" x="30" y="145" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PgI-Du-yeF">
                                 <rect key="frame" x="30" y="209" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa mensal de Rendimentos " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAm-h8-W0T">
                                 <rect key="frame" x="30" y="273" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAV-ZT-cKY">
                                 <rect key="frame" x="30" y="337" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mnu-Yr-iiA">
                                 <rect key="frame" x="30" y="401" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7hN-QG-L86">
                                 <rect key="frame" x="30" y="465" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JU0-07-UF6">
                                 <rect key="frame" x="30" y="74" width="42" height="21"/>
@@ -89,17 +89,17 @@
                             <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="Myr-3D-3Lx" secondAttribute="trailing" constant="30" id="LlA-6D-Y7k"/>
                             <constraint firstItem="Myr-3D-3Lx" firstAttribute="top" secondItem="JU0-07-UF6" secondAttribute="bottom" constant="50" id="NRV-B8-d3x"/>
                             <constraint firstItem="7hN-QG-L86" firstAttribute="top" secondItem="Mnu-Yr-iiA" secondAttribute="bottom" constant="30" id="OAs-Xy-QVv"/>
+                            <constraint firstItem="L0c-SB-r49" firstAttribute="centerX" secondItem="7hN-QG-L86" secondAttribute="centerX" id="Qn0-in-2ry"/>
                             <constraint firstItem="Mnu-Yr-iiA" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="WUT-3i-VlV"/>
                             <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="Mnu-Yr-iiA" secondAttribute="trailing" constant="30" id="aXL-Ly-4IP"/>
                             <constraint firstItem="L0c-SB-r49" firstAttribute="top" secondItem="7hN-QG-L86" secondAttribute="bottom" constant="50" id="cjG-SP-nnd"/>
-                            <constraint firstItem="L0c-SB-r49" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="169" id="csw-YX-iwC"/>
                             <constraint firstItem="wAV-ZT-cKY" firstAttribute="top" secondItem="VAm-h8-W0T" secondAttribute="bottom" constant="30" id="hDp-RI-G2J"/>
                             <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="VAm-h8-W0T" secondAttribute="trailing" constant="30" id="hi5-4A-Tkn"/>
                             <constraint firstItem="JU0-07-UF6" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="i4Y-xu-Fnv"/>
                             <constraint firstItem="VAm-h8-W0T" firstAttribute="top" secondItem="PgI-Du-yeF" secondAttribute="bottom" constant="30" id="iaR-hP-CiV"/>
+                            <constraint firstItem="L0c-SB-r49" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="169" id="jB8-4j-i3K"/>
                             <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="7hN-QG-L86" secondAttribute="trailing" constant="30" id="jX7-5i-zM3"/>
                             <constraint firstItem="PgI-Du-yeF" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="kMZ-qM-ABJ"/>
-                            <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="L0c-SB-r49" secondAttribute="trailing" constant="169" id="nHG-IQ-1SR"/>
                             <constraint firstItem="9JJ-zR-GTS" firstAttribute="trailing" secondItem="JU0-07-UF6" secondAttribute="trailing" constant="342" id="qv8-Oy-5UG"/>
                             <constraint firstItem="wAV-ZT-cKY" firstAttribute="leading" secondItem="9JJ-zR-GTS" secondAttribute="leading" constant="30" id="szH-12-sb2"/>
                             <constraint firstItem="PgI-Du-yeF" firstAttribute="top" secondItem="Myr-3D-3Lx" secondAttribute="bottom" constant="30" id="xAF-ia-JDI"/>
@@ -111,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uum-1Y-jSf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-236.23188405797103" y="99.776785714285708"/>
+            <point key="canvasLocation" x="-238" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qut-zB-gmT">
