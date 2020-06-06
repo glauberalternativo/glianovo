@@ -1,10 +1,13 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "RealistaViewController"
+- "ResultProjecao"
 provides-nominal:
 - "8GliaNovo22RealistaViewControllerC"
+- "8GliaNovo14ResultProjecaoC"
 provides-member:
 - ["8GliaNovo22RealistaViewControllerC", ""]
+- ["8GliaNovo14ResultProjecaoC", ""]
 - ["SS", ""]
 - ["SS", "doubleValue"]
 provides-dynamic-lookup:
@@ -44,6 +47,7 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - !private "NSString"
 - "RealistaViewController"
+- "ResultProjecao"
 - "String"
 - "UILabel"
 - "UITextField"
@@ -397,6 +401,9 @@ depends-member:
 - !private ["8GliaNovo22RealistaViewControllerC", "pow"]
 - !private ["8GliaNovo22RealistaViewControllerC", "print"]
 - ["8GliaNovo22RealistaViewControllerC", "viewDidLoad"]
+- ["8GliaNovo14ResultProjecaoC", "deinit"]
+- ["8GliaNovo14ResultProjecaoC", "init"]
+- ["8GliaNovo14ResultProjecaoC", "viewDidLoad"]
 - !private ["s10SIMDScalarP", "init"]
 - !private ["ST", "Double"]
 - !private ["s13SignedNumericP", "init"]
@@ -815,6 +822,7 @@ depends-nominal:
 - !private "Sq"
 - !private "Sm"
 - "8GliaNovo22RealistaViewControllerC"
+- "8GliaNovo14ResultProjecaoC"
 - !private "s10SIMDScalarP"
 - !private "ST"
 - !private "s13SignedNumericP"
@@ -892,4 +900,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0b075db13adb06007663b73124e6b053"
+interface-hash: "1e4db952d86531dacaa9ef458c9dedf9"

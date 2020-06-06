@@ -33,44 +33,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n9j-I5-r8N">
-                                <rect key="frame" x="20" y="179" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Valor Inicial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n9j-I5-r8N">
+                                <rect key="frame" x="20" y="148.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="28y-wO-OQK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSa-T1-1iQ">
-                                <rect key="frame" x="20" y="233" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Valor Mensal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSa-T1-1iQ">
+                                <rect key="frame" x="20" y="213.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dUA-eE-2ig"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de Rendimentos (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DN7-cQ-WSa">
-                                <rect key="frame" x="20" y="287" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Taxa de Rendimentos (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DN7-cQ-WSa">
+                                <rect key="frame" x="20" y="278.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TC4-g9-LbZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-3m-niQ">
-                                <rect key="frame" x="20" y="341" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Período investido (em meses)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-3m-niQ">
+                                <rect key="frame" x="20" y="343.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LT2-Nb-1nA"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-DX-Pe8">
-                                <rect key="frame" x="20" y="395" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Taxa de inflação atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-DX-Pe8">
+                                <rect key="frame" x="20" y="408.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0qG-oL-trq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndv-JD-3L4">
-                                <rect key="frame" x="20" y="449" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Taxa de IR atual" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndv-JD-3L4">
+                                <rect key="frame" x="20" y="473.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ib3-RY-qEb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9we-Ah-efw">
-                                <rect key="frame" x="30" y="118" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVL-Lm-mAL">
-                                <rect key="frame" x="168" y="513" width="76" height="30"/>
+                                <rect key="frame" x="20" y="553.5" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9jr-ZJ-GyO"/>
+                                </constraints>
                                 <state key="normal" title="Simular"/>
                                 <connections>
                                     <action selector="Simular:" destination="PjS-jJ-laG" eventType="touchUpInside" id="LTa-y4-zIB"/>
@@ -78,34 +93,47 @@
                                     <segue destination="uSY-xP-49M" kind="show" id="5Ad-mP-WmK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9we-Ah-efw">
+                                <rect key="frame" x="20" y="108" width="737" height="20.5"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.10000000000000001"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="737" id="iO1-DR-nnT"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Faça a Projeção Realista do seu investimento ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="168" id="1V1-3H-f7l"/>
-                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="40" id="3db-LV-Ktk"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="top" secondItem="n9j-I5-r8N" secondAttribute="bottom" constant="20" id="7JT-52-dR9"/>
-                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="leading" secondItem="eIG-3m-niQ" secondAttribute="leading" id="AA2-vZ-fSW"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="qVL-Lm-mAL" secondAttribute="trailing" constant="170" id="AaM-q1-sL1"/>
-                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="top" secondItem="NSa-T1-1iQ" secondAttribute="bottom" constant="20" id="Har-mj-6VN"/>
-                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="40" id="LEH-3p-xwo"/>
-                            <constraint firstItem="9we-Ah-efw" firstAttribute="top" secondItem="ADq-7a-ygz" secondAttribute="top" constant="30" id="NR1-B0-N8Z"/>
-                            <constraint firstItem="eIG-3m-niQ" firstAttribute="top" secondItem="DN7-cQ-WSa" secondAttribute="bottom" constant="20" id="NSV-3O-LSE"/>
-                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="leading" secondItem="ndv-JD-3L4" secondAttribute="leading" id="Q7F-I5-EW1"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="n9j-I5-r8N" secondAttribute="leading" id="SZ9-Vg-vfO"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="DN7-cQ-WSa" secondAttribute="leading" id="T3z-EW-CNl"/>
-                            <constraint firstItem="9we-Ah-efw" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="30" id="YZ3-2b-nwS"/>
-                            <constraint firstItem="eIG-3m-niQ" firstAttribute="leading" secondItem="Lcd-DX-Pe8" secondAttribute="leading" id="YaW-5B-EeY"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="n9j-I5-r8N" secondAttribute="trailing" constant="20" id="cGs-hw-ab3"/>
-                            <constraint firstItem="ndv-JD-3L4" firstAttribute="top" secondItem="Lcd-DX-Pe8" secondAttribute="bottom" constant="20" id="htv-3w-0Pp"/>
-                            <constraint firstItem="eIG-3m-niQ" firstAttribute="trailing" secondItem="Lcd-DX-Pe8" secondAttribute="trailing" id="oOw-cr-DJq"/>
-                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="trailing" secondItem="eIG-3m-niQ" secondAttribute="trailing" id="p6K-7K-RGa"/>
-                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="top" secondItem="eIG-3m-niQ" secondAttribute="bottom" constant="20" id="qHD-pP-AHr"/>
-                            <constraint firstItem="n9j-I5-r8N" firstAttribute="leading" secondItem="ADq-7a-ygz" secondAttribute="leading" constant="20" id="rEg-y5-HAu"/>
-                            <constraint firstItem="ADq-7a-ygz" firstAttribute="trailing" secondItem="9we-Ah-efw" secondAttribute="trailing" constant="342" id="sa4-9L-r24"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="trailing" secondItem="n9j-I5-r8N" secondAttribute="trailing" id="scA-9H-YSD"/>
-                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="top" secondItem="ndv-JD-3L4" secondAttribute="bottom" constant="30" id="ske-gT-ff6"/>
-                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="trailing" secondItem="DN7-cQ-WSa" secondAttribute="trailing" id="waq-PV-oaf"/>
-                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="trailing" secondItem="ndv-JD-3L4" secondAttribute="trailing" id="yfz-Tu-Z6Y"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="leading" secondItem="NSa-T1-1iQ" secondAttribute="leading" id="1Sp-GL-eE5"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="leading" secondItem="eIG-3m-niQ" secondAttribute="leading" id="97H-fA-bZA"/>
+                            <constraint firstItem="ndv-JD-3L4" firstAttribute="trailing" secondItem="qVL-Lm-mAL" secondAttribute="trailing" id="A0c-P8-Ry5"/>
+                            <constraint firstItem="qVL-Lm-mAL" firstAttribute="top" secondItem="ndv-JD-3L4" secondAttribute="bottom" constant="30" id="CwH-35-dxG"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="trailing" secondItem="iO8-Cs-xOI" secondAttribute="trailingMargin" id="JD2-S6-pP3"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="top" secondItem="9we-Ah-efw" secondAttribute="bottom" constant="20" id="OGK-O3-CFe"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="leading" secondItem="Lcd-DX-Pe8" secondAttribute="leading" id="P2F-A4-co0"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="trailing" secondItem="Lcd-DX-Pe8" secondAttribute="trailing" id="Tb3-V6-xnu"/>
+                            <constraint firstItem="9we-Ah-efw" firstAttribute="leading" secondItem="iO8-Cs-xOI" secondAttribute="leadingMargin" id="Tfy-0l-xrk"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="top" secondItem="eIG-3m-niQ" secondAttribute="bottom" constant="15" id="VhY-rJ-Z4y"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="trailing" secondItem="DN7-cQ-WSa" secondAttribute="trailing" id="YWu-2A-dak"/>
+                            <constraint firstItem="9we-Ah-efw" firstAttribute="top" secondItem="ADq-7a-ygz" secondAttribute="top" constant="20" id="Zux-wQ-oTE"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="leading" secondItem="ndv-JD-3L4" secondAttribute="leading" id="ka2-Tj-csO"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="leading" secondItem="DN7-cQ-WSa" secondAttribute="leading" id="l5X-lC-Y9r"/>
+                            <constraint firstItem="NSa-T1-1iQ" firstAttribute="top" secondItem="n9j-I5-r8N" secondAttribute="bottom" constant="15" id="mtV-ek-TJb"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="trailing" secondItem="eIG-3m-niQ" secondAttribute="trailing" id="mxX-ZU-p1u"/>
+                            <constraint firstItem="9we-Ah-efw" firstAttribute="leading" secondItem="n9j-I5-r8N" secondAttribute="leading" id="pHb-2J-57D"/>
+                            <constraint firstItem="eIG-3m-niQ" firstAttribute="top" secondItem="DN7-cQ-WSa" secondAttribute="bottom" constant="15" id="pKr-VS-Ua4"/>
+                            <constraint firstItem="ndv-JD-3L4" firstAttribute="top" secondItem="Lcd-DX-Pe8" secondAttribute="bottom" constant="15" id="rMD-bd-QPn"/>
+                            <constraint firstItem="Lcd-DX-Pe8" firstAttribute="trailing" secondItem="ndv-JD-3L4" secondAttribute="trailing" id="t5b-eo-zeH"/>
+                            <constraint firstItem="n9j-I5-r8N" firstAttribute="trailing" secondItem="NSa-T1-1iQ" secondAttribute="trailing" id="uOH-6O-1Lx"/>
+                            <constraint firstItem="DN7-cQ-WSa" firstAttribute="top" secondItem="NSa-T1-1iQ" secondAttribute="bottom" constant="15" id="uxe-Jd-KOJ"/>
+                            <constraint firstItem="ndv-JD-3L4" firstAttribute="leading" secondItem="qVL-Lm-mAL" secondAttribute="leading" id="z8Q-n4-oTS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ADq-7a-ygz"/>
                     </view>
@@ -127,7 +155,7 @@
         <!--Resultado-->
         <scene sceneID="t3G-X8-c8J">
             <objects>
-                <viewController id="uSY-xP-49M" sceneMemberID="viewController">
+                <viewController id="uSY-xP-49M" customClass="RealistaViewController" customModule="GliaNovo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oKf-eQ-OBX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

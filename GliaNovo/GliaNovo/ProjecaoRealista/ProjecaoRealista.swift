@@ -88,6 +88,19 @@ class RealistaViewController: UIViewController{
     
 }
 
+
+class ResultProjecao: UIViewController{
+    
+    
+    
+    override func viewDidLoad() {
+         super.viewDidLoad()
+         
+     }
+    
+}
+
+
 extension String {
     var doubleValue: Double {
         return Double(self) ?? 0

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>276C0B00-E1CB-4BA2-A5F7-5E28942706C3</key>
+		<key>1B4FDFD1-792A-45CB-BD2A-42D4D20596D2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>276C0B00-E1CB-4BA2-A5F7-5E28942706C3.xcactivitylog</string>
+			<string>1B4FDFD1-792A-45CB-BD2A-42D4D20596D2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>GliaNovo-djauytzidgtdvpguvqkfdgerwnum</string>
 			<key>timeStartedRecording</key>
-			<real>613082992.83898604</real>
+			<real>613088531.27496505</real>
 			<key>timeStoppedRecording</key>
-			<real>613082996.36845899</real>
+			<real>613088536.675753</real>
 			<key>title</key>
 			<string>Build target GliaNovo</string>
 			<key>uniqueIdentifier</key>
-			<string>276C0B00-E1CB-4BA2-A5F7-5E28942706C3</string>
+			<string>1B4FDFD1-792A-45CB-BD2A-42D4D20596D2</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
