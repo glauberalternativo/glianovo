@@ -15,7 +15,7 @@ class JurosViewController: UIViewController {
     @IBOutlet weak var periodoField: UITextField!
     
     var valorDividaTotal = 0.0
-    
+    //oi
     var Capital = 0.0
     var periodo = 0.0
     var JurosMes = 0.0
