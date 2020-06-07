@@ -58,6 +58,7 @@ class RealistaViewController: UIViewController{
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
         ValorInicial.resignFirstResponder()
         ValorMensal.resignFirstResponder()
         Taxa.resignFirstResponder()
@@ -68,31 +69,27 @@ class RealistaViewController: UIViewController{
     
     func Resultado() {
 
-        ipca = NSString(string:Inflacao.text!).doubleValue
-        ipca = ipca/100.0
-
-        Rend = NSString(string:Taxa.text!).doubleValue
-        Rend = Rend/100.0
-
-        IR = NSString(string:IR1.text!).doubleValue
-        IR = IR/100.0
+        ipca =  Inflacao.text!.myDoubleConverter
         
-        Tempo = NSString(string:Periodo.text!).doubleValue
-        PV = NSString(string:ValorInicial.text!).doubleValue
-        PMT = NSString(string:ValorMensal.text!).doubleValue
+        ipca = ipca / 100.0
 
-    print(ipca)
-    print(Rend)
-    print(IR)
-    print(Tempo)
-    print(PV)
-    print(PMT)
+        Rend = Taxa.text!.myDoubleConverter
+        Rend = Rend / 100.0
+
+        IR = IR1.text!.myDoubleConverter
+        IR = IR / 100.0
+        
+        Tempo = Periodo.text!.myDoubleConverter
+        PV = ValorInicial.text!.myDoubleConverter
+        PMT = ValorMensal.text!.myDoubleConverter
+
+   
         
         Dap = PV + PMT*Tempo
-        Dat1 = PMT*(ipca+1)*(pow((ipca+1),Tempo)-1)/ipca
-        Dat2 = PV*pow((ipca+1),Tempo)
+        Dat1 = PMT*(ipca + 1)*(pow((ipca + 1),Tempo) - 1)/ipca
+        Dat2 = PV*pow((ipca + 1),Tempo)
 
-        DAT = Dat1+Dat2
+        DAT = Dat1 + Dat2
         FB = ((1+Rend)*((pow(1+Rend,Tempo)-1)/Rend)*PMT)+(PV*pow((1+Rend),Tempo))
         FL = FB-((FB-Dap)*IR)
         Luc = FL-DAT
@@ -120,7 +117,7 @@ class RealistaViewController: UIViewController{
         vc.FBr = MostrarFBr
         vc.FLi = MostrarFLi
         vc.Lu = MostrarLu
-        vc.LSI = String(Result)
+        vc.LSI = Result
     }
 }
 
@@ -131,7 +128,7 @@ class ResultProjecao: UIViewController{
     var FBr = ""
     var FLi = ""
     var Lu = ""
-    var LSI = ""
+    var LSI = 0.0
     
     @IBOutlet weak var ValorAportado: UILabel!
     @IBOutlet weak var ValorAtualizado: UILabel!
@@ -148,7 +145,7 @@ class ResultProjecao: UIViewController{
         FuturoBruto.text = FBr
         FuturoLiquido.text = FLi
         Lucro.text = Lu
-        LucroSobreInflacao.text = LSI + "%"
+        LucroSobreInflacao.text = String(format: "%.01f", LSI) + "%"
      }
 }
 
@@ -159,6 +156,24 @@ extension String {
     }
 }
 
+extension String {
+var myDoubleConverter: Double {
+let converter = NumberFormatter()
+
+converter.decimalSeparator = ","
+if let result = converter.number(from: self){
+return result.doubleValue
+
+} else {
+
+converter.decimalSeparator = "."
+if let result = converter.number(from: self) {
+return result.doubleValue
+}
+}
+return 0
+}
+}
 
 extension RealistaViewController: UITextFieldDelegate {
     
