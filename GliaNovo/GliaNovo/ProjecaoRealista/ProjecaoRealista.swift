@@ -25,56 +25,69 @@ class RealistaViewController: UIViewController{
     var Luc = 0.0
     var Result = 0.000
     
+    var MostrarVAp = ""
+    var MostrarVAt = ""
+    var MostrarFBr = ""
+    var MostrarFLi = ""
+    var MostrarLu = ""
+    
     @IBOutlet weak var Label: UILabel!
-    
     @IBOutlet weak var ValorInicial: UITextField!
-    
     @IBOutlet weak var ValorMensal: UITextField!
-    
     @IBOutlet weak var Taxa: UITextField!
-    
     @IBOutlet weak var Periodo: UITextField!
-    
     @IBOutlet weak var Inflacao: UITextField!
-    
     @IBOutlet weak var IR1: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ValorInicial.delegate = self
+        ValorMensal.delegate = self
+        Taxa.delegate = self
+        Periodo.delegate = self
+        Inflacao.delegate = self
+        IR1.delegate = self
+        
     }
-    
+     
     @IBAction func Simular(_ sender: Any) {
-   
+        
     Resultado()
-
-           print(DAT)
-           print(FB)
-           print(FL)
-           print(Luc)
-           print(Result)
-    
+        
     }
     
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        ValorInicial.resignFirstResponder()
+        ValorMensal.resignFirstResponder()
+        Taxa.resignFirstResponder()
+        Periodo.resignFirstResponder()
+        Inflacao.resignFirstResponder()
+        IR1.resignFirstResponder()
+    }
+    
     func Resultado() {
 
         ipca = NSString(string:Inflacao.text!).doubleValue
-        ipca = ipca/100
+        ipca = ipca/100.0
 
         Rend = NSString(string:Taxa.text!).doubleValue
-        Rend = Rend/100
+        Rend = Rend/100.0
 
         IR = NSString(string:IR1.text!).doubleValue
-        IR = IR/100
-
+        IR = IR/100.0
+        
         Tempo = NSString(string:Periodo.text!).doubleValue
-
         PV = NSString(string:ValorInicial.text!).doubleValue
-
         PMT = NSString(string:ValorMensal.text!).doubleValue
 
-
+    print(ipca)
+    print(Rend)
+    print(IR)
+    print(Tempo)
+    print(PV)
+    print(PMT)
+        
         Dap = PV + PMT*Tempo
         Dat1 = PMT*(ipca+1)*(pow((ipca+1),Tempo)-1)/ipca
         Dat2 = PV*pow((ipca+1),Tempo)
@@ -83,21 +96,60 @@ class RealistaViewController: UIViewController{
         FB = ((1+Rend)*((pow(1+Rend,Tempo)-1)/Rend)*PMT)+(PV*pow((1+Rend),Tempo))
         FL = FB-((FB-Dap)*IR)
         Luc = FL-DAT
-        Result = (Luc/DAT)*100
+        Result = (Luc/DAT)*100.0
+        
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = Locale.current
+        
+        MostrarVAp = currencyFormatter.string(from: NSNumber(value: Dap))!
+        MostrarVAt = currencyFormatter.string(from: NSNumber(value: DAT))!
+        MostrarFBr = currencyFormatter.string(from: NSNumber(value: FB))!
+        MostrarFLi = currencyFormatter.string(from: NSNumber(value: FL))!
+        MostrarLu = currencyFormatter.string(from: NSNumber(value: Luc))!
+        
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let vc = segue.destination as! ResultProjecao
+        
+        vc.VAp = MostrarVAp
+        vc.VAt = MostrarVAt
+        vc.FBr = MostrarFBr
+        vc.FLi = MostrarFLi
+        vc.Lu = MostrarLu
+        vc.LSI = String(Result)
+    }
 }
-
 
 class ResultProjecao: UIViewController{
     
+    var VAp = ""
+    var VAt = ""
+    var FBr = ""
+    var FLi = ""
+    var Lu = ""
+    var LSI = ""
     
+    @IBOutlet weak var ValorAportado: UILabel!
+    @IBOutlet weak var ValorAtualizado: UILabel!
+    @IBOutlet weak var FuturoBruto: UILabel!
+    @IBOutlet weak var FuturoLiquido: UILabel!
+    @IBOutlet weak var Lucro: UILabel!
+    @IBOutlet weak var LucroSobreInflacao: UILabel!
     
     override func viewDidLoad() {
          super.viewDidLoad()
-         
+        
+        ValorAportado.text = VAp
+        ValorAtualizado.text = VAt
+        FuturoBruto.text = FBr
+        FuturoLiquido.text = FLi
+        Lucro.text = Lu
+        LucroSobreInflacao.text = LSI + "%"
      }
-    
 }
 
 
@@ -105,4 +157,9 @@ extension String {
     var doubleValue: Double {
         return Double(self) ?? 0
     }
+}
+
+
+extension RealistaViewController: UITextFieldDelegate {
+    
 }

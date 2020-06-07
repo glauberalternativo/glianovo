@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A68FA171-545C-459C-9049-33F3849501A8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A933B44-1106-40D2-808F-132DEC3A943F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GliaNovo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1A933B44-1106-40D2-808F-132DEC3A943F - 224fb8c4d13c593e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GliaNovo.AppDelegate.__deallocating_deinit"
+                  moduleName = "GliaNovo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1A933B44-1106-40D2-808F-132DEC3A943F - 9098b286364f908a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GliaNovo.AppDelegate.__allocating_init() -&gt; GliaNovo.AppDelegate"
+                  moduleName = "GliaNovo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "1A933B44-1106-40D2-808F-132DEC3A943F - 9710d6a34d0af87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GliaNovo.AppDelegate.init() -&gt; GliaNovo.AppDelegate"
+                  moduleName = "GliaNovo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "1A933B44-1106-40D2-808F-132DEC3A943F - 2323ce4b31e95a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "GliaNovo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juhstephan/Documents/GitHub/glianovo/GliaNovo/GliaNovo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
