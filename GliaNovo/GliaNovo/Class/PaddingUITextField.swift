@@ -29,6 +29,8 @@ class PaddingUITextField: UITextField {
         return bounds.inset(by: UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15))
                 
     }
+    
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

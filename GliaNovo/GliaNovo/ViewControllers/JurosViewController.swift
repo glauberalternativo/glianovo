@@ -20,14 +20,15 @@ class JurosViewController: UIViewController {
     var periodo = 0.0
     var JurosMes = 0.0
     
-//    @IBOutlet weak var labelResulValortotal: UILabel!
-//    @IBOutlet weak var labelResulJurostotal: UILabel!
-//    @IBOutlet weak var labelResulParcela: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        valorField.delegate = self
+        jurosField.delegate = self
+        periodoField.delegate = self
+        
+    
      
-
     }
     
     @IBAction func btSimular(_ sender: Any) {
@@ -66,27 +67,31 @@ class JurosViewController: UIViewController {
     }
     
     
-    
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ResulJurosViewController
+       
         vc.valorDivida = valorField.text!
+        
+        
+        
         vc.jurosPorcen = jurosField.text!
         vc.periodoMes = periodoField.text!
-        
+
         vc.valorTotalDivida = valorDividaTotal
         vc.jurosPago = valorDividaTotal - Capital
         vc.parcelas = valorDividaTotal / periodo
-        
-        
-        
-        
+
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        valorField.resignFirstResponder()
+        jurosField.resignFirstResponder()
+        periodoField.resignFirstResponder()
     }
     
 }
 
 class ResulJurosViewController: UIViewController {
-    
     
     @IBOutlet weak var labelValorDivida: UILabel!
     @IBOutlet weak var labelJurosMes: UILabel!
@@ -107,18 +112,38 @@ class ResulJurosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        // localize to your grouping and decimal separator
+        currencyFormatter.locale = Locale.current
+
+        // We'll force unwrap with the !, if you've got defined data you may need more error checking
+        
+        
+//        let myNumber = NSNumber(value: valorTotalDivida)
+//        let juros = NSNumber(value: jurosPago)
+//        let parce = NSNumber(value: parcelas)
+//
+        
+        let mostraValorDivT = currencyFormatter.string(from: NSNumber(value: valorTotalDivida))!
+        let mostraValorJuropgo = currencyFormatter.string(from: NSNumber(value: jurosPago))!
+        let mostraValorparcela = currencyFormatter.string(from: NSNumber(value: parcelas))!
+        
+//        let mostraValorDivT = currencyFormatter.string(from: NSNumber(value: valorTotalDivida))!
+//        let mostraValorJuropgo = currencyFormatter.string(from: NSNumber(value: jurosPago))!
+//        let mostraValorparcela = currencyFormatter.string(from: NSNumber(value: parcelas))!
+    
         labelValorDivida.text = valorDivida
-        labelJurosMes.text = jurosPorcen
+        labelJurosMes.text = jurosPorcen + "%"
         labelMes.text = periodoMes
         
-        
-        resulParcela.text = String(format: "%.1f",parcelas)
-        resulTotalJuros.text = String(format: "%.1f",jurosPago)
-        resulTotalPago.text = String(format: "%.1f",valorTotalDivida)
-        
+        resulParcela.text = mostraValorparcela
+        resulTotalJuros.text = mostraValorJuropgo
+        resulTotalPago.text = mostraValorDivT
         
     }
-    
     
     
     
@@ -128,4 +153,9 @@ extension String {
     var doubleValue: Double {
         return Double(self) ?? 0
     }
+}
+
+extension JurosViewController: UITextFieldDelegate {
+    
+    
 }
