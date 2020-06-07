@@ -10,7 +10,7 @@
         <!--Juros-->
         <scene sceneID="sZg-Yj-AH8">
             <objects>
-                <navigationController id="ChA-QS-T1u" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Juros" id="ChA-QS-T1u" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Juros" selectedImage="doc.on.doc.fill" catalog="system" id="HVL-FC-p9g">
                         <color key="badgeColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
@@ -108,8 +108,8 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="btSimular:" destination="Cai-Rw-f4t" eventType="touchUpInside" id="NHg-YT-zbS"/>
-                                    <segue destination="1c5-iY-Kdy" kind="show" id="4AE-fx-exc"/>
+                                    <action selector="btSimular:" destination="Cai-Rw-f4t" eventType="touchUpInside" id="ePu-4R-JOp"/>
+                                    <segue destination="1c5-iY-Kdy" kind="show" id="lEI-jN-Cfi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -135,9 +135,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Projeção de Juros" id="emY-tQ-KJ8"/>
                     <connections>
-                        <outlet property="jurosField" destination="kss-RO-pMD" id="aQZ-1F-csl"/>
-                        <outlet property="periodoField" destination="mxu-c9-Unx" id="Dkj-m4-KWY"/>
-                        <outlet property="valorField" destination="y9j-yg-IRq" id="xg4-PJ-Dw6"/>
+                        <outlet property="jurosField" destination="kss-RO-pMD" id="Ley-bO-Ony"/>
+                        <outlet property="periodoField" destination="mxu-c9-Unx" id="Kem-9q-rEd"/>
+                        <outlet property="valorField" destination="y9j-yg-IRq" id="g9Q-0C-iL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46Q-BV-zlX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -307,7 +307,7 @@
                     <connections>
                         <outlet property="labelJurosMes" destination="Lwd-vg-Nkc" id="uIX-r8-ufg"/>
                         <outlet property="labelMes" destination="kgc-TC-wTQ" id="c8Y-P0-t4i"/>
-                        <outlet property="labelValorDivida" destination="b0n-wg-sGU" id="uDJ-aZ-rv0"/>
+                        <outlet property="labelValorDivida" destination="b0n-wg-sGU" id="R6o-Wg-Emb"/>
                         <outlet property="resulParcela" destination="GUk-Gw-9kG" id="i2D-hK-7ru"/>
                         <outlet property="resulTotalJuros" destination="2YE-gr-2CM" id="5go-m8-zYY"/>
                         <outlet property="resulTotalPago" destination="l5V-yb-znH" id="Oja-pP-CJc"/>

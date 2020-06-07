@@ -6,22 +6,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Juros-->
-        <scene sceneID="wga-dp-Xbe">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cAe-tp-89Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewControllerPlaceholder storyboardName="Juros" id="TZe-Sc-wnc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="doc.on.doc" catalog="system" id="1gm-bn-46K">
-                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBarItem>
-                </viewControllerPlaceholder>
-            </objects>
-            <point key="canvasLocation" x="747" y="91"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SIB-0J-rob">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="88U-wi-M2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="NlY-j2-Lli" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0A6-50-wQF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -31,53 +18,63 @@
                     <connections>
                         <segue destination="QY8-vf-cUK" kind="relationship" relationship="viewControllers" id="GNA-O5-GXa"/>
                         <segue destination="WQm-GR-41O" kind="relationship" relationship="viewControllers" id="5Ns-8c-94I"/>
-                        <segue destination="TZe-Sc-wnc" kind="relationship" relationship="viewControllers" id="QY8-kj-IYC"/>
                         <segue destination="WzA-tM-Lrz" kind="relationship" relationship="viewControllers" id="29z-8e-NfJ"/>
+                        <segue destination="lOE-0T-CTE" kind="relationship" relationship="viewControllers" id="Ntw-Lk-A8e"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="88U-wi-M2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="114" y="59"/>
         </scene>
         <!--Info-->
         <scene sceneID="scZ-pB-lft">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cwX-Jg-vdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Info" id="WzA-tM-Lrz" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="info.circle" catalog="system" id="EFX-4U-Uy7">
                         <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwX-Jg-vdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="746" y="149"/>
         </scene>
         <!--Home-->
         <scene sceneID="uE5-8O-vr2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a4b-na-o8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Home" id="QY8-vf-cUK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="5cg-Dx-X95">
                         <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4b-na-o8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="746" y="-21"/>
         </scene>
         <!--Realista-->
         <scene sceneID="4LO-zH-9xh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Neu-bc-lGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Realista" id="WQm-GR-41O" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="doc" catalog="system" id="HEz-NX-Og3">
                         <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Neu-bc-lGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="747" y="31"/>
+        </scene>
+        <!--Juros-->
+        <scene sceneID="1V3-Cf-zWX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Juros" referencedIdentifier="Juros" id="lOE-0T-CTE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Udv-7b-86C"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7n-Vw-SpA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="80"/>
         </scene>
     </scenes>
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
-        <image name="doc.on.doc" catalog="system" width="117" height="128"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
     </resources>

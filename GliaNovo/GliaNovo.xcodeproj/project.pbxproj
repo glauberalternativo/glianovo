@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */; };
 		78B01CE4248CAA6A009C08BB /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 78B01CE3248CAA6A009C08BB /* Class */; };
+		78B01CE8248CAF09009C08BB /* JurosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B01CE7248CAF09009C08BB /* JurosViewController.swift */; };
 		78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4A247F10420090F600 /* AppDelegate.swift */; };
 		78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4C247F10420090F600 /* SceneDelegate.swift */; };
 		78FFBD4F247F10420090F600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4E247F10420090F600 /* ViewController.swift */; };
@@ -24,7 +25,7 @@
 /* Begin PBXFileReference section */
 		782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjecaoRealista.swift; sourceTree = "<group>"; };
 		78B01CE3248CAA6A009C08BB /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
-		78B01CE6248CAA8B009C08BB /* JurosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurosViewController.swift; sourceTree = "<group>"; };
+		78B01CE7248CAF09009C08BB /* JurosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurosViewController.swift; sourceTree = "<group>"; };
 		78FFBD47247F10420090F600 /* GliaNovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliaNovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FFBD4A247F10420090F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78FFBD4C247F10420090F600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +62,7 @@
 		78B01CE5248CAA8A009C08BB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				78B01CE6248CAA8B009C08BB /* JurosViewController.swift */,
+				78B01CE7248CAF09009C08BB /* JurosViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +192,7 @@
 				782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */,
 				78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */,
 				78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */,
+				78B01CE8248CAF09009C08BB /* JurosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

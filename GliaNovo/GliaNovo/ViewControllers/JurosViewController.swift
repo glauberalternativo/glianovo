@@ -149,12 +149,6 @@ class ResulJurosViewController: UIViewController {
     
 }
 
-extension String {
-    var doubleValue: Double {
-        return Double(self) ?? 0
-    }
-}
-
 extension JurosViewController: UITextFieldDelegate {
     
     
