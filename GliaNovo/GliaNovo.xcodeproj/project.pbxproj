@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7859A36D24886345006914B9 /* JurosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7859A36C24886345006914B9 /* JurosViewController.swift */; };
+		7899DC382489A9B00069BE5F /* PaddingUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899DC372489A9B00069BE5F /* PaddingUITextField.swift */; };
 		782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */; };
 		78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4A247F10420090F600 /* AppDelegate.swift */; };
 		78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4C247F10420090F600 /* SceneDelegate.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7859A36C24886345006914B9 /* JurosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurosViewController.swift; sourceTree = "<group>"; };
+		7899DC372489A9B00069BE5F /* PaddingUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUITextField.swift; sourceTree = "<group>"; };
 		782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjecaoRealista.swift; sourceTree = "<group>"; };
 		78FFBD47247F10420090F600 /* GliaNovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliaNovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FFBD4A247F10420090F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7859A36B248862AA006914B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7859A36C24886345006914B9 /* JurosViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7899DC362489A95D0069BE5F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7899DC372489A9B00069BE5F /* PaddingUITextField.swift */,
+			);
+			path = Class;
 		782128C3248AC82100FF2307 /* ProjecaoRealista */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +92,8 @@
 		78FFBD49247F10420090F600 /* GliaNovo */ = {
 			isa = PBXGroup;
 			children = (
+				7899DC362489A95D0069BE5F /* Class */,
+				7859A36B248862AA006914B9 /* ViewControllers */,
 				782128C3248AC82100FF2307 /* ProjecaoRealista */,
 				78FFBD55247F10460090F600 /* LaunchScreen.storyboard */,
 				78FFBD50247F10420090F600 /* Main.storyboard */,
@@ -174,8 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78FFBD4F247F10420090F600 /* ViewController.swift in Sources */,
+				7899DC382489A9B00069BE5F /* PaddingUITextField.swift in Sources */,
 				782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */,
 				78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */,
+				7859A36D24886345006914B9 /* JurosViewController.swift in Sources */,
 				78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
