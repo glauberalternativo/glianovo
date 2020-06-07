@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */; };
+		78505E7E248D798F00E0F66D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78505E7D248D798F00E0F66D /* HomeViewController.swift */; };
 		78B01CE8248CAF09009C08BB /* JurosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B01CE7248CAF09009C08BB /* JurosViewController.swift */; };
 		78B01CEB248CB154009C08BB /* PaddingUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B01CEA248CB154009C08BB /* PaddingUITextField.swift */; };
 		78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4A247F10420090F600 /* AppDelegate.swift */; };
@@ -24,9 +25,10 @@
 
 /* Begin PBXFileReference section */
 		782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjecaoRealista.swift; sourceTree = "<group>"; };
+		78505E7D248D798F00E0F66D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		78B01CE7248CAF09009C08BB /* JurosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurosViewController.swift; sourceTree = "<group>"; };
 		78B01CEA248CB154009C08BB /* PaddingUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUITextField.swift; sourceTree = "<group>"; };
-		78FFBD47247F10420090F600 /* GliaNovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliaNovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FFBD47247F10420090F600 /* Aerarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aerarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FFBD4A247F10420090F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78FFBD4C247F10420090F600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78FFBD4E247F10420090F600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				78B01CE7248CAF09009C08BB /* JurosViewController.swift */,
+				78505E7D248D798F00E0F66D /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -86,7 +89,7 @@
 		78FFBD48247F10420090F600 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78FFBD47247F10420090F600 /* GliaNovo.app */,
+				78FFBD47247F10420090F600 /* Aerarium.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +140,7 @@
 			);
 			name = GliaNovo;
 			productName = GliaNovo;
-			productReference = 78FFBD47247F10420090F600 /* GliaNovo.app */;
+			productReference = 78FFBD47247F10420090F600 /* Aerarium.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,6 +203,7 @@
 				78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */,
 				78B01CEB248CB154009C08BB /* PaddingUITextField.swift in Sources */,
 				78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */,
+				78505E7E248D798F00E0F66D /* HomeViewController.swift in Sources */,
 				78B01CE8248CAF09009C08BB /* JurosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.glaubermoreira.GliaNovo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aerarium;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.glaubermoreira.GliaNovo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aerarium;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

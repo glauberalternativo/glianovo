@@ -14,6 +14,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.3529411764705882" green="0.64313725490196072" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="QY8-vf-cUK" kind="relationship" relationship="viewControllers" id="GNA-O5-GXa"/>
@@ -31,7 +33,7 @@
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="QY8-vf-cUK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" landscapeImage="house" largeContentSizeImage="house" selectedImage="house" id="5cg-Dx-X95">
-                        <color key="badgeColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="badgeColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4b-na-o8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

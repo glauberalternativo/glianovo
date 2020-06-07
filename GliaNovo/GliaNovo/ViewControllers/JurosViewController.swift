@@ -47,6 +47,8 @@ class JurosViewController: UIViewController {
         jurosField.resignFirstResponder()
         periodoField.resignFirstResponder()
         
+        
+        
     }
     
     func descMontante(_ capital: Double, _ jurosMes: Double, _ periodoM: Double) -> Double {
@@ -86,6 +88,8 @@ class JurosViewController: UIViewController {
         vc.valorTotalDivida = valorDividaTotal
         vc.jurosPago = valorDividaTotal - Capital
         vc.parcelas = valorDividaTotal / periodo
+        
+        limpaTextField()
 
     }
     
@@ -93,6 +97,12 @@ class JurosViewController: UIViewController {
         valorField.resignFirstResponder()
         jurosField.resignFirstResponder()
         periodoField.resignFirstResponder()
+    }
+    
+    func limpaTextField() {
+        valorField.text = ""
+        jurosField.text = ""
+        periodoField.text = ""
     }
     
 }

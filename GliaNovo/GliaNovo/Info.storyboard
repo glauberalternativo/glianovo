@@ -11,7 +11,9 @@
         <scene sceneID="o0u-mk-xYE">
             <objects>
                 <navigationController id="osq-iq-RaF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" landscapeImage="info.circle" largeContentSizeImage="info.circle" selectedImage="info.circle.fill" id="9Np-w7-3vs"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" landscapeImage="info.circle" largeContentSizeImage="info.circle" selectedImage="info.circle.fill" id="9Np-w7-3vs">
+                        <color key="badgeColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L0W-LG-qOF">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -33,19 +35,374 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVH-uw-5PX">
-                                <rect key="frame" x="30" y="118" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9YA-Cz-ifk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwP-kc-SJo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Fo-Xx-sXl">
+                                                <rect key="frame" x="20" y="20" width="374" height="245"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor inicial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1M-2j-kRU">
+                                                        <rect key="frame" x="25" y="73" width="157" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="É o primeiro valor investido levar em consideração os aportes mensais, ele não é obrigatório." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzA-br-QVk">
+                                                        <rect key="frame" x="25" y="115" width="271" height="60"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8f-Zn-ykn">
+                                                <rect key="frame" x="20" y="285" width="374" height="219"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aporte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl9-3L-zqo">
+                                                        <rect key="frame" x="25" y="73" width="95" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aporte mensal é a aplicação financeira mensal de uma pessoa ou empresa em investimentos. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Si-9S-2pC">
+                                                        <rect key="frame" x="25" y="115" width="271" height="60"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gR2-gJ-l9O">
+                                                <rect key="frame" x="20" y="524" width="374" height="251"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taxa de rendimentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Eu-VC-CKw">
+                                                        <rect key="frame" x="25" y="73" width="282" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="É definida como o percentual de remuneração do dinheiro aplicado, ou seja, o quanto obteve de retorno com a aplicação." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdj-bX-Wpj">
+                                                        <rect key="frame" x="25" y="115" width="271" height="81"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.68000000000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wbd-sU-F43">
+                                                <rect key="frame" x="20" y="795" width="374" height="257"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inflação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb5-HH-w42">
+                                                        <rect key="frame" x="25" y="73" width="111" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A inflação é  aumento geral dos preços na sociedade ela representa o aumento do custo de vida e da desvalorização da moeda." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEM-NB-A9y">
+                                                        <rect key="frame" x="25" y="115" width="271" height="81"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.71999999999999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ovs-R2-Yvq">
+                                                <rect key="frame" x="20" y="1072" width="374" height="232"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Período" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luC-Te-snc">
+                                                        <rect key="frame" x="25" y="73" width="106" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="O período é o tempo que deixamos o nosso dinheiro em investimentos ou pagando alguma dívida." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-Kp-xiu">
+                                                        <rect key="frame" x="25" y="115" width="271" height="60"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.76000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTQ-iM-Ume">
+                                                <rect key="frame" x="20" y="1324" width="374" height="249"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alíquota de imposto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfm-KW-y2H">
+                                                        <rect key="frame" x="25" y="73" width="272" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B65-vl-mbq">
+                                                        <rect key="frame" x="25" y="115" width="271" height="81"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Alíquota de imposto é o percentual ou valor fixo que será descontado da rentabilidade de um investimento, essa alíquota é cobrada pelo governo.</string>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azj-ly-SYT">
+                                                <rect key="frame" x="20" y="1593" width="374" height="264"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Imposto de renda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cl-7l-ZJp">
+                                                        <rect key="frame" x="25" y="73" width="237" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fG-pl-AoS">
+                                                        <rect key="frame" x="25" y="115" width="280" height="102"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">É o valor que cada contribuinte, seja ele pessoa física ou pessoa jurídica, paga uma certa porcentagem de sua renda ao governo, num investimento o valor incide sobre a rentabilidade.</string>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.83999999999999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jog-3w-tn6">
+                                                <rect key="frame" x="20" y="1877" width="374" height="232"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projeção Realista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtS-Za-fmW">
+                                                        <rect key="frame" x="25" y="73" width="236" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A projeção realista mostra qual o ganho real de um investimento, já que ela leva em consideração  inflação e imposto." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22p-oq-Ofr">
+                                                        <rect key="frame" x="25" y="115" width="271" height="71"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.88" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvU-YI-Xhs">
+                                                <rect key="frame" x="20" y="2129" width="374" height="224"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lucro Bruto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0Q-GL-aMB">
+                                                        <rect key="frame" x="25" y="73" width="159" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="É o lucro geral obtido sobre algo. Lucro obtido sem descontar as taxas e a inflação." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brA-YN-VyW">
+                                                        <rect key="frame" x="25" y="115" width="271" height="71"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.92000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVW-Ua-G3w">
+                                                <rect key="frame" x="20" y="2373" width="374" height="228"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lucro líquido" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMG-Sf-DVi">
+                                                        <rect key="frame" x="25" y="73" width="176" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lucro líquido é todo ganho ou vantagem reais obtidos, ou seja, descontando taxas." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsg-4M-2Gx">
+                                                        <rect key="frame" x="25" y="115" width="271" height="71"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.95999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D06-zW-04A">
+                                                <rect key="frame" x="20" y="2621" width="374" height="226"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projeção de dívida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVF-xd-6Zt">
+                                                        <rect key="frame" x="25" y="73" width="249" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A projeção de uma dívida nos ajuda a identificar quanto pagaremos no final das parcelas ou financiamento." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H58-A1-2kY">
+                                                        <rect key="frame" x="25" y="115" width="271" height="71"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright © 2020 Glauber Santos Moreira Julia Meda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P68-IO-nmW">
+                                                <rect key="frame" x="136" y="2875" width="142" height="71"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Ovs-R2-Yvq" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="2CW-OI-PU0"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Fo-Xx-sXl" secondAttribute="trailing" constant="20" id="3Ep-FO-MLK"/>
+                                            <constraint firstAttribute="height" constant="3000" id="44u-Ip-M4S"/>
+                                            <constraint firstItem="SvU-YI-Xhs" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="5c0-Hz-SdF"/>
+                                            <constraint firstItem="SvU-YI-Xhs" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="2129" id="6V6-dW-rOe"/>
+                                            <constraint firstItem="qTQ-iM-Ume" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="1324" id="8LS-Tm-DFI"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wbd-sU-F43" secondAttribute="trailing" constant="20" id="AIl-Ob-GaX"/>
+                                            <constraint firstItem="6Fo-Xx-sXl" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="DUK-Ep-Pd0"/>
+                                            <constraint firstItem="azj-ly-SYT" firstAttribute="top" secondItem="qTQ-iM-Ume" secondAttribute="bottom" constant="20" id="EL1-ZM-46X"/>
+                                            <constraint firstItem="gR2-gJ-l9O" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="Jd5-wB-v2B"/>
+                                            <constraint firstItem="SvU-YI-Xhs" firstAttribute="top" secondItem="Jog-3w-tn6" secondAttribute="bottom" constant="20" id="Mj3-rR-6Ws"/>
+                                            <constraint firstItem="Wbd-sU-F43" firstAttribute="top" secondItem="gR2-gJ-l9O" secondAttribute="bottom" constant="20" id="Rx5-aJ-GbC"/>
+                                            <constraint firstItem="e8f-Zn-ykn" firstAttribute="top" secondItem="6Fo-Xx-sXl" secondAttribute="bottom" constant="20" id="S8g-Ne-pGu"/>
+                                            <constraint firstItem="Ovs-R2-Yvq" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="1072" id="TBr-oD-3x2"/>
+                                            <constraint firstItem="6Fo-Xx-sXl" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="20" id="TJr-QZ-xfP"/>
+                                            <constraint firstItem="gR2-gJ-l9O" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="524" id="UP6-RS-Hk3"/>
+                                            <constraint firstItem="JVW-Ua-G3w" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="Vtq-pw-OdS"/>
+                                            <constraint firstItem="gR2-gJ-l9O" firstAttribute="top" secondItem="e8f-Zn-ykn" secondAttribute="bottom" constant="20" id="X7b-ft-3dj"/>
+                                            <constraint firstItem="e8f-Zn-ykn" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="285" id="YB8-Et-xS7"/>
+                                            <constraint firstItem="JVW-Ua-G3w" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="2373" id="YRH-ib-tHq"/>
+                                            <constraint firstItem="Wbd-sU-F43" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="795" id="Zn8-oS-paZ"/>
+                                            <constraint firstItem="qTQ-iM-Ume" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="ae8-2c-PcF"/>
+                                            <constraint firstAttribute="trailing" secondItem="gR2-gJ-l9O" secondAttribute="trailing" constant="20" id="bPo-iO-f7z"/>
+                                            <constraint firstAttribute="trailing" secondItem="qTQ-iM-Ume" secondAttribute="trailing" constant="20" id="buD-fc-D7d"/>
+                                            <constraint firstItem="Jog-3w-tn6" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="dFN-th-ndS"/>
+                                            <constraint firstItem="e8f-Zn-ykn" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="e9m-ce-vgd"/>
+                                            <constraint firstItem="azj-ly-SYT" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="1593" id="gVn-f3-wZm"/>
+                                            <constraint firstItem="Jog-3w-tn6" firstAttribute="top" secondItem="azj-ly-SYT" secondAttribute="bottom" constant="20" id="gZD-wQ-Zkd"/>
+                                            <constraint firstItem="JVW-Ua-G3w" firstAttribute="top" secondItem="SvU-YI-Xhs" secondAttribute="bottom" constant="20" id="h6z-vf-3cp"/>
+                                            <constraint firstAttribute="trailing" secondItem="e8f-Zn-ykn" secondAttribute="trailing" constant="20" id="iEi-bi-fyo"/>
+                                            <constraint firstItem="qTQ-iM-Ume" firstAttribute="top" secondItem="Ovs-R2-Yvq" secondAttribute="bottom" constant="20" id="ka1-TD-dsq"/>
+                                            <constraint firstAttribute="bottom" secondItem="D06-zW-04A" secondAttribute="bottom" constant="153" id="pWV-Fk-SeL"/>
+                                            <constraint firstItem="Jog-3w-tn6" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="1877" id="qt5-Ih-7pS"/>
+                                            <constraint firstItem="D06-zW-04A" firstAttribute="top" secondItem="JVW-Ua-G3w" secondAttribute="bottom" constant="20" id="rrn-BV-HQa"/>
+                                            <constraint firstAttribute="trailing" secondItem="SvU-YI-Xhs" secondAttribute="trailing" constant="20" id="rvR-A1-J5o"/>
+                                            <constraint firstAttribute="trailing" secondItem="JVW-Ua-G3w" secondAttribute="trailing" constant="20" id="sF5-G8-XtW"/>
+                                            <constraint firstItem="Wbd-sU-F43" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="shL-y5-oy9"/>
+                                            <constraint firstAttribute="trailing" secondItem="D06-zW-04A" secondAttribute="trailing" constant="20" id="si4-ec-iyf"/>
+                                            <constraint firstItem="D06-zW-04A" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="tFj-tS-E3j"/>
+                                            <constraint firstItem="D06-zW-04A" firstAttribute="top" secondItem="GwP-kc-SJo" secondAttribute="top" constant="2621" id="vZk-qM-6Py"/>
+                                            <constraint firstItem="azj-ly-SYT" firstAttribute="leading" secondItem="GwP-kc-SJo" secondAttribute="leading" constant="20" id="wac-tV-E6s"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ovs-R2-Yvq" secondAttribute="trailing" constant="20" id="wmu-Vv-OGL"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jog-3w-tn6" secondAttribute="trailing" constant="20" id="yGq-uJ-HJn"/>
+                                            <constraint firstAttribute="trailing" secondItem="azj-ly-SYT" secondAttribute="trailing" constant="20" id="zAO-Kv-VCy"/>
+                                            <constraint firstItem="Ovs-R2-Yvq" firstAttribute="top" secondItem="Wbd-sU-F43" secondAttribute="bottom" constant="20" id="zhZ-AE-REE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GwP-kc-SJo" secondAttribute="bottom" id="3YY-AY-xDe"/>
+                                    <constraint firstItem="GwP-kc-SJo" firstAttribute="top" secondItem="9YA-Cz-ifk" secondAttribute="top" id="dbG-m7-yAK"/>
+                                    <constraint firstAttribute="trailing" secondItem="GwP-kc-SJo" secondAttribute="trailing" id="jN0-yz-XiO"/>
+                                    <constraint firstItem="GwP-kc-SJo" firstAttribute="leading" secondItem="9YA-Cz-ifk" secondAttribute="leading" id="x9v-VI-6fr"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RKa-XE-Ohw" firstAttribute="bottom" secondItem="UVH-uw-5PX" secondAttribute="bottom" constant="674" id="8he-nL-JYL"/>
-                            <constraint firstItem="UVH-uw-5PX" firstAttribute="leading" secondItem="RKa-XE-Ohw" secondAttribute="leading" constant="30" id="FcU-oL-9tH"/>
-                            <constraint firstItem="RKa-XE-Ohw" firstAttribute="trailing" secondItem="UVH-uw-5PX" secondAttribute="trailing" constant="342" id="hT9-4H-npL"/>
-                            <constraint firstItem="UVH-uw-5PX" firstAttribute="top" secondItem="RKa-XE-Ohw" secondAttribute="top" constant="30" id="qCM-qt-GHJ"/>
+                            <constraint firstItem="9YA-Cz-ifk" firstAttribute="leading" secondItem="RKa-XE-Ohw" secondAttribute="leading" id="Abv-di-Aqz"/>
+                            <constraint firstItem="9YA-Cz-ifk" firstAttribute="trailing" secondItem="RKa-XE-Ohw" secondAttribute="trailing" id="Grk-Ev-fR9"/>
+                            <constraint firstItem="GwP-kc-SJo" firstAttribute="height" secondItem="rXY-aA-DDC" secondAttribute="height" priority="250" id="Jag-W4-43i"/>
+                            <constraint firstItem="9YA-Cz-ifk" firstAttribute="top" secondItem="rXY-aA-DDC" secondAttribute="top" id="RWY-go-WZt"/>
+                            <constraint firstAttribute="bottom" secondItem="9YA-Cz-ifk" secondAttribute="bottom" id="c2Q-Be-aMs"/>
+                            <constraint firstItem="GwP-kc-SJo" firstAttribute="width" secondItem="rXY-aA-DDC" secondAttribute="width" id="zOR-2x-IeL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RKa-XE-Ohw"/>
                     </view>
@@ -53,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zg5-tt-K60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25" y="102"/>
+            <point key="canvasLocation" x="24.637681159420293" y="101.78571428571428"/>
         </scene>
     </scenes>
     <resources>
