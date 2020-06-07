@@ -1,9 +1,19 @@
 
+*.DS_Store
 
-GliaNovo/GliaNovo.xcodeproj/project.xcworkspace/xcuserdata/glaubermoreira.xcuserdatad/UserInterfaceState.xcuserstate
+## User settings
+xcuserdata/
 
-GliaNovo/GliaNovo.xcodeproj/project.xcworkspace/xcuserdata/juhstephan.xcuserdatad/UserInterfaceState.xcuserstate
-GliaNovo/.DS_Store
-.DS_Store
+## Obj-C/Swift specific
+*.hmap
 
-*.xcuserstate
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+.build/
