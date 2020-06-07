@@ -35,7 +35,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Faça a projeção de uma dívida e descubra o valor total que será pago, o total de juros e o valor de cada parcela." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEz-NU-FYZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faça a projeção de uma dívida e descubra o valor total que será pago, o total de juros e o valor de cada parcela." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEz-NU-FYZ">
                                 <rect key="frame" x="20" y="105" width="374" height="86"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -118,7 +118,7 @@
                             <constraint firstItem="YTe-el-PE0" firstAttribute="trailing" secondItem="FQe-fl-cf8" secondAttribute="trailing" constant="20" id="8zv-84-0CE"/>
                             <constraint firstItem="FQe-fl-cf8" firstAttribute="top" secondItem="mxu-c9-Unx" secondAttribute="bottom" constant="30" id="Epm-0q-ZEG"/>
                             <constraint firstItem="kss-RO-pMD" firstAttribute="top" secondItem="y9j-yg-IRq" secondAttribute="bottom" constant="15" id="IyT-kb-E31"/>
-                            <constraint firstItem="LEz-NU-FYZ" firstAttribute="top" secondItem="YTe-el-PE0" secondAttribute="top" constant="14" id="Ldl-EN-ARu"/>
+                            <constraint firstItem="LEz-NU-FYZ" firstAttribute="top" secondItem="YTe-el-PE0" secondAttribute="top" constant="17" id="Ldl-EN-ARu"/>
                             <constraint firstItem="y9j-yg-IRq" firstAttribute="leading" secondItem="mxu-c9-Unx" secondAttribute="leading" id="Mvg-34-cIs"/>
                             <constraint firstItem="FQe-fl-cf8" firstAttribute="leading" secondItem="YTe-el-PE0" secondAttribute="leading" constant="20" id="Nto-t5-Om1"/>
                             <constraint firstItem="y9j-yg-IRq" firstAttribute="top" secondItem="R5b-3Z-to0" secondAttribute="top" constant="208" id="OSa-1c-MJ1"/>
