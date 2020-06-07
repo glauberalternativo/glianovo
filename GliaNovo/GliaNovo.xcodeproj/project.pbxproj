@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		782128C5248AC83E00FF2307 /* ProjecaoRealista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */; };
+		78B01CE4248CAA6A009C08BB /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 78B01CE3248CAA6A009C08BB /* Class */; };
 		78FFBD4B247F10420090F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4A247F10420090F600 /* AppDelegate.swift */; };
 		78FFBD4D247F10420090F600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4C247F10420090F600 /* SceneDelegate.swift */; };
 		78FFBD4F247F10420090F600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFBD4E247F10420090F600 /* ViewController.swift */; };
@@ -22,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		782128C4248AC83E00FF2307 /* ProjecaoRealista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjecaoRealista.swift; sourceTree = "<group>"; };
+		78B01CE3248CAA6A009C08BB /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
+		78B01CE6248CAA8B009C08BB /* JurosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurosViewController.swift; sourceTree = "<group>"; };
 		78FFBD47247F10420090F600 /* GliaNovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliaNovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FFBD4A247F10420090F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78FFBD4C247F10420090F600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +58,14 @@
 			path = ProjecaoRealista;
 			sourceTree = "<group>";
 		};
+		78B01CE5248CAA8A009C08BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78B01CE6248CAA8B009C08BB /* JurosViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		78FFBD3E247F10420090F600 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +85,8 @@
 		78FFBD49247F10420090F600 /* GliaNovo */ = {
 			isa = PBXGroup;
 			children = (
+				78B01CE5248CAA8A009C08BB /* ViewControllers */,
+				78B01CE3248CAA6A009C08BB /* Class */,
 				782128C3248AC82100FF2307 /* ProjecaoRealista */,
 				78FFBD55247F10460090F600 /* LaunchScreen.storyboard */,
 				78FFBD50247F10420090F600 /* Main.storyboard */,
@@ -159,6 +172,7 @@
 				78FFBD57247F10460090F600 /* LaunchScreen.storyboard in Resources */,
 				78FFBD54247F10460090F600 /* Assets.xcassets in Resources */,
 				78FFBD52247F10420090F600 /* Main.storyboard in Resources */,
+				78B01CE4248CAA6A009C08BB /* Class in Resources */,
 				FDBE1BA1248583A500B2FEF0 /* Realista.storyboard in Resources */,
 				FDBE1BA5248583EC00B2FEF0 /* Info.storyboard in Resources */,
 				FDBE1BA3248583C200B2FEF0 /* Juros.storyboard in Resources */,
