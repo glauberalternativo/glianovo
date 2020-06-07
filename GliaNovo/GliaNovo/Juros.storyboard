@@ -11,9 +11,7 @@
         <scene sceneID="sZg-Yj-AH8">
             <objects>
                 <navigationController id="ChA-QS-T1u" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Juros" selectedImage="doc.on.doc.fill" catalog="system" id="HVL-FC-p9g">
-                        <color key="badgeColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Juros" selectedImage="doc.on.doc.fill" catalog="system" id="HVL-FC-p9g"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Syu-Jk-VkX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -34,21 +32,7 @@
                     <view key="view" contentMode="scaleToFill" id="R5b-3Z-to0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEz-NU-FYZ">
-                                <rect key="frame" x="30" y="118" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="LEz-NU-FYZ" firstAttribute="top" secondItem="YTe-el-PE0" secondAttribute="top" constant="30" id="B0h-tT-Ufx"/>
-                            <constraint firstItem="YTe-el-PE0" firstAttribute="bottom" secondItem="LEz-NU-FYZ" secondAttribute="bottom" constant="674" id="PRa-MY-NAM"/>
-                            <constraint firstItem="YTe-el-PE0" firstAttribute="trailing" secondItem="LEz-NU-FYZ" secondAttribute="trailing" constant="342" id="WGz-fd-p8B"/>
-                            <constraint firstItem="LEz-NU-FYZ" firstAttribute="leading" secondItem="YTe-el-PE0" secondAttribute="leading" constant="30" id="eos-H8-kc0"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YTe-el-PE0"/>
                     </view>
                     <navigationItem key="navigationItem" title="Projeção de Juros" id="emY-tQ-KJ8"/>
