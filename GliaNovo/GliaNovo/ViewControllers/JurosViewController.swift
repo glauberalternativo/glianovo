@@ -37,20 +37,26 @@ class JurosViewController: UIViewController {
         print(jurosField.text!)
         print(periodoField.text!)
         
-        Capital = NSString(string: valorField.text!).doubleValue
-        periodo = NSString(string: periodoField.text!).doubleValue
-        JurosMes = NSString(string: jurosField.text!).doubleValue
+        Capital = valorField.text!.myDoubleConverters
+        periodo = periodoField.text!.myDoubleConverters
+        JurosMes = jurosField.text!.myDoubleConverters
         
         valorDividaTotal = descMontante(Capital, JurosMes, periodo)
+        
+        valorField.resignFirstResponder()
+        jurosField.resignFirstResponder()
+        periodoField.resignFirstResponder()
         
     }
     
     func descMontante(_ capital: Double, _ jurosMes: Double, _ periodoM: Double) -> Double {
         
         let Capital = capital
-        var JurosMes = jurosMes
+        var JurosMes = jurosMes / 12
+        
         print(JurosMes)
         JurosMes = JurosMes / 100.0
+        print(JurosMes)
         let periodo = periodoM
         
         var Temp = pow(1 + JurosMes, periodo)
@@ -101,6 +107,12 @@ class ResulJurosViewController: UIViewController {
     @IBOutlet weak var resulTotalJuros: UILabel!
     @IBOutlet weak var resulTotalPago: UILabel!
     
+    
+    
+    @IBOutlet weak var labelGanhoAcimadaD: UILabel!
+    @IBOutlet weak var labelGanhoJuros: UILabel!
+    @IBOutlet weak var GanhoTotal: UILabel!
+    
     var valorDivida = ""
     var jurosPorcen = ""
     var periodoMes = ""
@@ -135,7 +147,7 @@ class ResulJurosViewController: UIViewController {
 //        let mostraValorJuropgo = currencyFormatter.string(from: NSNumber(value: jurosPago))!
 //        let mostraValorparcela = currencyFormatter.string(from: NSNumber(value: parcelas))!
     
-        labelValorDivida.text = valorDivida
+        labelValorDivida.text = currencyFormatter.string(from: NSNumber(value: Double(valorDivida)!))!
         labelJurosMes.text = jurosPorcen + "%"
         labelMes.text = periodoMes
         
@@ -143,10 +155,46 @@ class ResulJurosViewController: UIViewController {
         resulTotalJuros.text = mostraValorJuropgo
         resulTotalPago.text = mostraValorDivT
         
+        let GanhoT = currencyFormatter.string(from: NSNumber(value: jurosComposto()))!
+        labelGanhoAcimadaD.text = currencyFormatter.string(from: NSNumber(value: jurosComposto() - Double(valorDivida)!))!
+        GanhoTotal.text = GanhoT
+        
+        labelGanhoJuros.text = currencyFormatter.string(from: NSNumber(value: jurosComposto() - valorTotalDivida))!
     }
     
+    func jurosComposto() -> Double {
+        
+        let periodo = Double(periodoMes)!
+        let JurosMes = 0.005
+        var Temp = 0.0
+        Temp = pow(1 + JurosMes, periodo)
+        print(Temp * parcelas)
+        Temp = (Temp - 1) / JurosMes
+        Temp = Temp * parcelas
+     
+        return Temp
+        
+    }
     
-    
+}
+
+extension String {
+var myDoubleConverters: Double {
+let converter = NumberFormatter()
+
+converter.decimalSeparator = ","
+if let result = converter.number(from: self){
+return result.doubleValue
+
+} else {
+
+converter.decimalSeparator = "."
+if let result = converter.number(from: self) {
+return result.doubleValue
+}
+}
+return 0
+}
 }
 
 extension JurosViewController: UITextFieldDelegate {

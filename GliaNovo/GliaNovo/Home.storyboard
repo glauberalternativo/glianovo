@@ -41,7 +41,7 @@
         <scene sceneID="itg-3q-yfZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ufp-rN-2jN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="2vS-NW-XTL"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" landscapeImage="house" largeContentSizeImage="house" selectedImage="house.fill" id="2vS-NW-XTL"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="atb-Wt-L9V">
@@ -59,6 +59,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="house" catalog="system" width="128" height="110"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>

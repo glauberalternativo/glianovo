@@ -72,12 +72,15 @@ class RealistaViewController: UIViewController{
         ipca =  Inflacao.text!.myDoubleConverter
         
         ipca = ipca / 100.0
+        ipca = ipca / 12
 
         Rend = Taxa.text!.myDoubleConverter
         Rend = Rend / 100.0
+        Rend = Rend / 12
 
         IR = IR1.text!.myDoubleConverter
         IR = IR / 100.0
+        
         
         Tempo = Periodo.text!.myDoubleConverter
         PV = ValorInicial.text!.myDoubleConverter
