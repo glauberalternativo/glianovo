@@ -217,49 +217,6 @@ SWIFT_CLASS("_TtC8GliaNovo11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class UITextField;
-@class UITouch;
-@class UIEvent;
-@class UIStoryboardSegue;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC8GliaNovo22RealistaViewController")
-@interface RealistaViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Label;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified ValorInicial;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified ValorMensal;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Taxa;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Periodo;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Inflacao;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified IR1;
-- (void)viewDidLoad;
-- (IBAction)Simular:(id _Nonnull)sender;
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface RealistaViewController (SWIFT_EXTENSION(GliaNovo)) <UITextFieldDelegate>
-@end
-
-
-SWIFT_CLASS("_TtC8GliaNovo14ResultProjecao")
-@interface ResultProjecao : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ValorAportado;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ValorAtualizado;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified FuturoBruto;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified FuturoLiquido;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Lucro;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified LucroSobreInflacao;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 @class UIScene;
 
@@ -275,6 +232,8 @@ SWIFT_CLASS("_TtC8GliaNovo13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC8GliaNovo14ViewController")
 @interface ViewController : UIViewController
