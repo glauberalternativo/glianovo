@@ -121,6 +121,19 @@ class RealistaViewController: UIViewController{
         vc.FLi = MostrarFLi
         vc.Lu = MostrarLu
         vc.LSI = Result
+        
+        limpafield()
+    }
+    
+    func limpafield(){
+        
+        ValorInicial.text = ""
+        ValorMensal.text = ""
+        Taxa.text = ""
+        Periodo.text = ""
+        Inflacao.text = ""
+        IR1.text = ""
+        
     }
 }
 
